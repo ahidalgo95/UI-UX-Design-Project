@@ -8,8 +8,8 @@ sys_osx="0"
 # set this to the number of the current lab
 cur_lab=4
 
-system=$(uname -a)
-if [ "$system" == "Linux precise32 3.2.0-23-generic-pae #36-Ubuntu SMP Tue Apr 10 22:19:09 UTC 2012 i686 i686 i386 GNU/Linux" ]
+system=$(uname -a | cut -d' ' -f1,2)
+if [ "$system" == "Linux precise32" ] || [ "$system" == "Linux vagrant-ubuntu-trusty-64" ]
 then
   sys_vagrant="1"  
   echo "Running on Vagrant guest"
