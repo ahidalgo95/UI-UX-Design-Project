@@ -1,6 +1,7 @@
 <html>
 <head>
 	<title>Home</title>
+    <link href="/css/hcilist.css" rel="stylesheet">
 </head>
 <body>
     <div>
@@ -15,7 +16,6 @@
 		<h1>Last Week Today</h1>
         <h3>You were:</h3>
         </div>
-        
         <div> 
         <p id="last"></p>
         <script>
@@ -23,6 +23,12 @@
         lastWeek.setDate(lastWeek.getDate()-7); 
         document.getElementById("last").innerHTML = lastWeek.toDateString(); 
         </script>
+        <div class=box>
+        <p>Happy about:</p><br />
+        <p>1. Midterms</p><br />
+        <p>2. Chipotle</p><br />
+        <p>3. Had coffee w/ Rob</p><br />
+        </div>
         </div>
 
 			<a href="/list">Start Today</a>
