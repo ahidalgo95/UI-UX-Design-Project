@@ -45,7 +45,8 @@ function initializePage() {
 function toggleCard(toggle) {
   var i = getIndex();
   var lists = data.lists;
-  var title = $(".textbox h3").text(lists[i].title);
+  $("#last").text(lists[i].date);
+  $(".textbox h3").text(lists[i].title);
   $( ".textbox li" ).each(function(index) {
     $( this ).text(lists[i].items[index]);
   });
