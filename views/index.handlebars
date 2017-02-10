@@ -6,22 +6,22 @@
     <div>
     <h3 id="demo"></h3>
     <script>
-    var d= new Date(); 
-    document.getElementById("demo").innerHTML = d.toDateString(); 
+    var d= new Date();
+    document.getElementById("demo").innerHTML = d.toDateString();
     </script>
 	</div>
     <div>
         <div>
 		<h1>Last Week Today</h1>
-        <h3>You were:</h3>
+        <h3>You were doing:</h3>
         </div>
-        
-        <div> 
+
+        <div>
         <p id="last"></p>
         <script>
-        var lastWeek = new Date(); 
-        lastWeek.setDate(lastWeek.getDate()-7); 
-        document.getElementById("last").innerHTML = lastWeek.toDateString(); 
+        var lastWeek = new Date();
+        lastWeek.setDate(lastWeek.getDate()-7);
+        document.getElementById("last").innerHTML = lastWeek.toDateString();
         </script>
         </div>
 
