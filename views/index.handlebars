@@ -6,7 +6,8 @@
 		<link href="/css/bootstrap-theme.css" rel="stylesheet">
 		<link href="/css/bootstrap.css" rel="stylesheet">
 </head>
-<body>
+
+<body background="http://www.tananyag.almasi.hu/szlavikne/Light%20Blue%20Green%20Grad%20BK.jpg">
 	<a href="/">Logout</a>
 	<div class="app">
 
@@ -49,34 +50,53 @@
 	        <h3>Hello {{user}}</h3>
 	    </div>
 
-	        <div>
-						<p id="last"></p>
-			        <script>
-				        var lastWeek = new Date();
-				        lastWeek.setDate(lastWeek.getDate()-7);
-				        document.getElementById("last").innerHTML = lastWeek.toDateString();
-		        	</script>
-						<span class="glyphicon glyphicon-chevron-left left" />
-						<div class="textbox">
-							<h3>Happy about:</h3>
-								<ol>
-									<li>Midterms</li>
-									<li>Chipotle</li>
-									<li>Had coffee w/ Rob</li>
-								</ol>
-						</div>
-					<span class="glyphicon glyphicon-chevron-right right" />
-	        </div>
 
-				<a href="/list" id="start"><span>Start Today</span></a>
-			<h2>Menu</h2>
-				<ul>
-					<li><a href="/add-list">Add your own list</a></li>
-					<li><a href="/settings">Settings</a></li>
-					<li><a href="/help">Help</a></li>
-				</ul>
-		</div>
-	</div>
+
+
+
+<a href="/">Logout</a>
+<div class="app">
+<div class="top-container">
+<div>
+<h3 id="demo"></h3>
+</div>
+<script>
+var d= new Date();
+document.getElementById("demo").innerHTML = d.toDateString();
+</script>
+<div>
+<div>
+<h1 class="title">Last Week Today</h1>
+<h3>You were:</h3>
+</div>
+
+<div>
+<p id="last"></p>
+<script>
+var lastWeek = new Date();
+lastWeek.setDate(lastWeek.getDate()-7);
+document.getElementById("last").innerHTML = lastWeek.toDateString();
+</script>
+<span class="glyphicon glyphicon-chevron-left left" />
+<div class="textbox">
+<h3>Happy about:</h3>
+<ol>
+<li>Midterms</li>
+<li>Chipotle</li>
+<li>Had coffee w/ Rob</li>
+</ol>
+</div>
+<span class="glyphicon glyphicon-chevron-right right" />
+</div>
+<a href="/list" id="start"><span>Start Today</span></a>
+<h2>Menu</h2>
+<ul>
+<li><a href="/add-list">Add your own list</a></li>
+<li><a href="/settings">Settings</a></li>
+<li><a href="/help">Help</a></li>
+</ul>
+</div>
+</div>
 </div>
 <script src="/js/jquery-1.11.0.js"></script>
 <script src="/js/bootstrap.min.js"></script>
