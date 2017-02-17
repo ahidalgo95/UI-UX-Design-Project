@@ -15,7 +15,6 @@ var moreDetails = require('./routes/moreDetails');
 var settings = require('./routes/settings');
 var help = require('./routes/help');
 var addList = require('./routes/addList');
-var clickedlist = require('./routes/clickedlist');
 // Example route
 // var user = require('./routes/user');
 
@@ -49,7 +48,6 @@ app.get('/more-details', moreDetails.view);
 app.get('/settings', settings.view);
 app.get('/help', help.view);
 app.get('/add-list', addList.view);
-app.get('/ClickedList', clickedlist.view);
 // Example route
 // app.get('/users', user.list);
 
