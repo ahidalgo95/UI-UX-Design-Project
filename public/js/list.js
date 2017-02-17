@@ -1,6 +1,5 @@
 $('#list-form #submit-button').click(function(e) {
   e.preventDefault();
-  console.log("clicked");
   $('#list-form input').each(function(index) {
     var newVal =   $(this).val();
     $(this).val(newVal);
