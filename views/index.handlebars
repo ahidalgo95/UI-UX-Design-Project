@@ -7,11 +7,53 @@
 		<link href="/css/bootstrap.css" rel="stylesheet">
 </head>
 
-
-
-
-
 <body background="http://www.tananyag.almasi.hu/szlavikne/Light%20Blue%20Green%20Grad%20BK.jpg">
+	<a href="/">Logout</a>
+	<div class="app">
+
+		<!-- NAVBAR -->
+		<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">App Name</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Link</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<!-- NAV BAR END -->
+		<div class="top-container">
+			<div>
+				<h3 id="demo"></h3>
+			</div>
+				<script>
+				var d= new Date();
+				document.getElementById("demo").innerHTML = d.toDateString();
+				</script>
+			<div>
+
+	    <div>
+			<h1 class="title">Last Week Today</h1>
+	        <h3>Hello {{user}}</h3>
+	    </div>
+
+
+
+
+
 <a href="/">Logout</a>
 <div class="app">
 <div class="top-container">
@@ -57,6 +99,7 @@ document.getElementById("last").innerHTML = lastWeek.toDateString();
 </div>
 </div>
 <script src="/js/jquery-1.11.0.js"></script>
+<script src="/js/bootstrap.min.js"></script>
 <script src="/js/index.js"></script>
 </body>
 </html>
