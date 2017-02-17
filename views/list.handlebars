@@ -13,7 +13,7 @@
 
 	  <div class = "todaylist">
 	  <p>List 3 things you are grateful for:</p>
-	    <form action="list">
+	    <div id="list-form">
 	    <p>1. <input type="text" class="listItem" id="one" placeholder="type here!" name"type"/>
 	    </p>
 	    <br />
@@ -25,12 +25,17 @@
 	    <p>3. <input type="text" class="listItem" id="three" placeholder="type" name"type"/>
 	    <p />
 	    <br />
+				<button id="submit-button">Submit</button>
+				<button id="edit-button">Edit</button>
 	    </form>
 
-	    <a href="/ClickedList"> <input type='submit' name='Submit' value='Submit'/></a>
+
 	    </div>
 
 	  <a href="/more-details"><input type='submit' name='Submit' value='Add more details about your day'/></a>
 	</div>
+	<script src="/js/jquery-1.11.0.js"></script>
+	<script src="/js/bootstrap.min.js"></script>
+	<script src="/js/list.js"></script>
 </body>
 </html>

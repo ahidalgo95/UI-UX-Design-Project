@@ -44,3 +44,7 @@ html, body {
   justify-content: center;
   align-items: center;
 }
+
+#edit-button {
+  display:none;
+}
