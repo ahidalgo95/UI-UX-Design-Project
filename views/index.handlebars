@@ -63,27 +63,23 @@
 	document.getElementById("demo").innerHTML = d.toDateString();
 	</script>
 	<div>
+	</div>
+	<a href="/list" id="start"><span>Start Today</span></a>
+	</div>
 	<div>
 	<h3>Your Recollections:</h3>
 	</div>
 
+		{{#each lists}}
 		<div class=p>
-			<p id="last">{{list.date}}</p>
 			</script>
-			<span class="glyphicon glyphicon-chevron-left left" />
 				<div class="textbox">
-					<h3>{{list.title}}</h3>
-					<ol>
-						{{#each list.items}}
-							<li>{{item}}</li>
-					  {{/each}}
-					</ol>
-				</div>
-				<span class="glyphicon glyphicon-chevron-right right" />
-				</div>
-				<a href="/list" id="start"><span>Start Today</span></a>
+					<h4>{{date}}</h4>
+					<h3>{{title}}</h3>
+							<p>{{item}}</p>
 				</div>
 			</div>
+			{{/each}}
 		</div>
 		<script src="/js/jquery-1.11.0.js"></script>
 		<script src="/js/bootstrap.min.js"></script>
