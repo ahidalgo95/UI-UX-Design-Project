@@ -13,13 +13,32 @@ html, body {
 body {background: url("http://www.tananyag.almasi.hu/szlavikne/Light%20Blue%20Green%20Grad%20BK.jpg") no-repeat center center fixed;
 background-size: cover;
 }
+
+.image-cropper {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+img {
+  height: auto;
+ width: 100%;
+ -webkit-border-radius: 50%;
+ -moz-border-radius: 50%;
+ -ms-border-radius: 50%;
+ -o-border-radius: 50%;
+ border-radius: 50%;
+}
+
 .textbox {
 	padding-right: 10px;
   padding-left: 10px;
 	border: 5px solid gray;
-	margin-left: 10px;
-  margin-right: 10px;
-  display: inline-block;
+  margin-left: 10px;
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
 
 #last {

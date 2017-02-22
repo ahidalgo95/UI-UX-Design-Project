@@ -71,15 +71,20 @@
 	</div>
 
 		{{#each lists}}
-		<div class=p>
-			</script>
+
 				<div class="textbox">
 					<h4>{{date}}</h4>
 					<h3>{{title}}</h3>
-							<p>{{items}}</p>
+					<p>{{items}}</p>
+					<div class="image-cropper">
+						<img src={{emoji}}, class="rounded" />
+					</div>
+					<div class="image-cropper">
+						<img src={{weather}}>
+					</div>
 				</div>
-			</div>
-			{{/each}}
+
+		{{/each}}
 		</div>
 		<script src="/js/jquery-1.11.0.js"></script>
 		<script src="/js/bootstrap.min.js"></script>
