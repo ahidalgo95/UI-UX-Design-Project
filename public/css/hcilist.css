@@ -33,6 +33,10 @@ html, body {
   font-size: 30px;
 }
 
+.p {
+   padding: 10px 30px 50px 80px; 
+ }
+
 #start {
   display: block;
   width: 100%;
