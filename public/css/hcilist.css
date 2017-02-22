@@ -10,6 +10,9 @@ html, body {
   color: #01C5E8;
 }
 
+body {background: url("http://www.tananyag.almasi.hu/szlavikne/Light%20Blue%20Green%20Grad%20BK.jpg") no-repeat center center fixed;
+background-size: cover;
+}
 .textbox {
 	padding-right: 10px;
   padding-left: 10px;
