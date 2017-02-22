@@ -34,7 +34,12 @@ html, body {
 }
 
 .p {
-   padding: 10px 30px 50px 80px; 
+   padding: 10px 30px 50px 80px;
+ }
+
+ p{
+   font-family: 'Scope One', serif;
+   padding: 10px 10px 10px 10px;
  }
 
 #start {
