@@ -43,7 +43,7 @@ if ('development' == app.get('env')) {
 // Add routes here
 app.get('/index', index.view);
 app.get('/', login.view);
-app.get('/list', list.view);
+app.get('/list', list.addAnswer);
 app.get('/more-details', moreDetails.view);
 app.get('/settings', settings.view);
 app.get('/help', help.view);

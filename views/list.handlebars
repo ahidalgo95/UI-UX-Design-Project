@@ -42,20 +42,24 @@
 	  <h2>Your List Today</h2>
 
 	  <div class = "todaylist">
+		<form id="addToday" role = "form" method="get" action="/list">
 	  <h4>{{task}}</h4>
 	    <div id="list-form">
-        <TEXTAREA NAME="Address" ROWS=3 COLS=50 >
-        </TEXTAREA>
+				<label for="name">Name:</label>
+	      <input type="text" class="form-control" id="name" placeholder="Name" name="name">
+        <!--<TEXTAREA NAME="Address" ROWS=3 COLS=50 >
+        </TEXTAREA> -->
         </br>
 				<button class="submit">Submit</button>
 				<button id="edit-button">Edit</button>
-	    </form>
-
-
 	    </div>
-
 	  <a href="/more-details"><button class="submit">Add more details about your day</button></a>
+	</form>
 	</div>
+	{{#if data includeZero=true}}
+		data
+	{{/if}}
+
 	<script src="/js/jquery-1.11.0.js"></script>
 	<script src="/js/bootstrap.min.js"></script>
 	<script src="/js/list.js"></script>
