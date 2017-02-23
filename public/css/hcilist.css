@@ -33,12 +33,43 @@ img {
 }
 
 .textbox {
-	padding-right: 10px;
-  padding-left: 10px;
-	border: 5px solid gray;
-  margin-left: 10px;
-  margin-right: 20px;
-  margin-bottom: 20px;
+  padding-right: 10px;
+padding-left: 10px;
+/* border: 5px solid gray; */
+background: white;
+border-radius: 15px;
+border-bottom: 2px solid rgba(0, 0 ,0,0.1);
+border-right: 2px solid rgba(0, 0 ,0,0.1);
+margin-bottom: 40px;
+padding: 10px;
+
+}
+
+.em {
+  width: 40px;
+  height: 40px;
+}
+
+.textbox-date {
+  margin-bottom: 16px;
+}
+.textbox-title {
+ color: lightskyblue;
+ margin-top: 0;
+}
+
+.textbox-content {
+ margin-bottom: 0;
+}
+
+.heading {
+  color: cornflowerblue;
+  text-align: center;
+  font-size: 30px;
+}
+
+#index-heading {
+ margin-bottom: 17px;
 }
 
 #last {
@@ -47,6 +78,8 @@ img {
 
 .top-container {
   width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -69,13 +102,15 @@ img {
 #start {
   display: block;
   width: 100%;
-  height: 40px;
-  padding: 0 25%;
-  background: #232950;
+  height: 130px;
+  background: lightskyblue;
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  font-size: 30;
 }
 
 #edit-button {
