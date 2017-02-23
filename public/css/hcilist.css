@@ -7,6 +7,8 @@ html, body {
 }
 
 .todaylist {
+  margin-left: 20px;
+  margin-right: 20px;
   color: #01C5E8;
 }
 
