@@ -42,9 +42,7 @@
 	  <h2>Your List Today</h2>
 
 	  <div class = "todaylist">
-      {{questions}}
-        <p>{{prompt}}</p>
-	  <h4>List 3 things you are grateful for:</h4>
+        <h4>{{prompt}}</h4>
 	    <div id="list-form">
         <TEXTAREA NAME="Address" ROWS=3 COLS=50 >
         </TEXTAREA>
@@ -53,9 +51,7 @@
 				<button id="edit-button">Edit</button>
 	    </form>
 	    </div>
-        {{questions}}
-
-	  <a href="/more-details"><input type='submit' name='Submit' value='Add more details about your day'/></a>
+    <a href="/more-details"><input type='submit' name='Submit' value='Add more details about your day'/></a>
 	</div>
 	<script src="/js/jquery-1.11.0.js"></script>
 	<script src="/js/bootstrap.min.js"></script>
