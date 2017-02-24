@@ -125,10 +125,15 @@ padding: 10px;
   margin-bottom: 15px;
 }
 .submit{
-  background: lightskyblue;
+  background: deepskyblue;
   color: white;
   border-radius: 10px;
   margin-bottom: 30px;
+  border: none;
+  height: 50px;
+  width: 200px;
+  margin-top: 20px;
+
 }
 #settings{
   margin: 15px;
@@ -148,4 +153,10 @@ padding: 10px;
 
 label > input:checked { /* (RADIO CHECKED) IMAGE STYLES */
   border:2px solid #f00;
-}*/
+}
+
+#listSubmit {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
