@@ -133,6 +133,9 @@ padding: 10px;
   height: 50px;
   width: 200px;
   margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 
 }
 #settings{
@@ -141,6 +144,9 @@ padding: 10px;
 
 #name{
   margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 
 #edit-button {
