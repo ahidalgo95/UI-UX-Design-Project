@@ -93,12 +93,12 @@ padding: 10px;
 }
 
 .p {
+  font-family: 'Scope One', serif;
    padding: 10px 30px 50px 80px;
  }
 
- p{
+ #p{
    font-family: 'Scope One', serif;
-   padding: 10px 10px 10px 10px;
  }
 
 #start {
@@ -123,6 +123,7 @@ padding: 10px;
   align-items: center;
   border-radius: 10px;
   margin-bottom: 15px;
+  display: flex;
 }
 .submit{
   background: deepskyblue;

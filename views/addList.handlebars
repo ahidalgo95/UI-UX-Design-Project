@@ -40,9 +40,12 @@
 
     <div class="top-container">
 			<h2>Add a List</h2>
+					<p>In order to help our users have flexibility over their mindfulness we have allowed a way
+						for you to add in your own 'daily task' that you want to see!
+						If you have an idea, type it in the box below, and we'll review it and add it to our data base</p>
      <form id="addList" role="form" method="get" action="/addedList">
-     	<input type="text" id="name" name="name" style="width:300px; height:20px;" margin="15px" placeholder="type" class="listItem" />
-	    <br />
+			<textarea id="name" name="name" cols="40" rows="5" placeholder="type" class="listItem"></textarea>
+			<br />
      	<button class="submit">Submit</button>
 		</form>
     </div>
