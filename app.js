@@ -16,6 +16,7 @@ var settings = require('./routes/settings');
 var help = require('./routes/help');
 var addList = require('./routes/addList');
 var subList = require('./routes/subList');
+var addedList = require('/routes/addedList');
 // Example route
 // var user = require('./routes/user');
 
@@ -50,6 +51,7 @@ app.get('/settings', settings.view);
 app.get('/help', help.view);
 app.get('/add-list', addList.view);
 app.get('/subList', subList.addAnswer);
+app.get('/addedList', addedList.addItem);
 // Example route
 // app.get('/users', user.list);
 
