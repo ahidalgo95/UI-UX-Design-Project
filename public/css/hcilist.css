@@ -7,14 +7,71 @@ html, body {
 }
 
 .todaylist {
+  margin-left: 20px;
+  margin-right: 20px;
   color: #01C5E8;
 }
 
+body {background: url("http://www.tananyag.almasi.hu/szlavikne/Light%20Blue%20Green%20Grad%20BK.jpg") no-repeat center center fixed;
+background-size: cover;
+}
+
+.image-cropper {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+img {
+  height: auto;
+ width: 100%;
+ -webkit-border-radius: 50%;
+ -moz-border-radius: 50%;
+ -ms-border-radius: 50%;
+ -o-border-radius: 50%;
+ border-radius: 50%;
+}
+
 .textbox {
-	padding: 10px;
-	border: 5px solid gray;
-	margin: 0;
-  display: inline-block;
+  padding-right: 10px;
+padding-left: 10px;
+/* border: 5px solid gray; */
+background: white;
+border-radius: 15px;
+border-bottom: 2px solid rgba(0, 0 ,0,0.1);
+border-right: 2px solid rgba(0, 0 ,0,0.1);
+margin-bottom: 40px;
+padding: 10px;
+
+}
+
+.em {
+  width: 40px;
+  height: 40px;
+}
+
+.textbox-date {
+  margin-bottom: 16px;
+}
+.textbox-title {
+ color: lightskyblue;
+ margin-top: 0;
+}
+
+.textbox-content {
+ margin-bottom: 0;
+}
+
+.heading {
+  color: cornflowerblue;
+  text-align: center;
+  font-size: 30px;
+}
+
+#index-heading {
+ margin-bottom: 17px;
 }
 
 #last {
@@ -23,6 +80,8 @@ html, body {
 
 .top-container {
   width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -45,15 +104,32 @@ html, body {
 #start {
   display: block;
   width: 100%;
-  height: 40px;
-  padding: 0 25%;
-  background: #232950;
+  height: 130px;
+  background: lightskyblue;
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  font-size: 30;
 }
-
+.login{
+  width: 100%;
+  height: 130px;
+  background: lightskyblue;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.submit{
+  background: lightskyblue;
+  color: white;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
 #edit-button {
   display:none;
 }
