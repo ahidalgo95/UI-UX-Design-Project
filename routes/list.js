@@ -1,9 +1,9 @@
 var data= require('../data.json');
-var question= require('../task.json');
+var taskData = require('../task.json');
 var helper = require('../public/js/helper.js');
-var tasks = question;
 var index = 1;//Math.floor(Math.random()*question.length);
-var task = question.tasks[index].task;
+var task = taskData.tasks[index];
+
 
 exports.view = function(req, res){
     res.render('list', task);
