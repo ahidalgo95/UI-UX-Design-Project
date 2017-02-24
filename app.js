@@ -16,7 +16,7 @@ var settings = require('./routes/settings');
 var help = require('./routes/help');
 var addList = require('./routes/addList');
 var subList = require('./routes/subList');
-var addedList = require('/routes/addedList');
+var addedList = require('./routes/addedList');
 // Example route
 // var user = require('./routes/user');
 
