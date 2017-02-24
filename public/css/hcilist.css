@@ -130,9 +130,13 @@ padding: 10px;
   border-radius: 10px;
   margin-bottom: 30px;
 }
+#settings{
+  margin: 15px;
+}
 #name{
   margin-bottom: 15px;
 }
+
 #edit-button {
   display:none;
 }
