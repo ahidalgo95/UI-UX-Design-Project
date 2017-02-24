@@ -5,6 +5,8 @@
 	 <link href="/css/hcilist.css" rel="stylesheet">
 	 <link href="/css/bootstrap-theme.css" rel="stylesheet">
 	 <link href="/css/bootstrap.css" rel="stylesheet">
+	 <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+
 </head>
 <body background="http://www.tananyag.almasi.hu/szlavikne/Light%20Blue%20Green%20Grad%20BK.jpg">
 
@@ -42,9 +44,9 @@
 	  <h2>Your List Today</h2>
 
 	  <div class = "todaylist">
-
+		<h4>{{task}}</h4>
 		<form id="addToday" role = "form" method="get" action="/subList">
-	  <h4>{{task}}</h4>
+
 	    <div id="list-form">
 				<label for="name">task</label>
 	      <input type="text" class="form-control" id="name" placeholder="Name" name="name">
@@ -53,12 +55,16 @@
         </br>
 				<button class="submit">Submit</button>
 				<button id="edit-button">Edit</button>
+
+				<p>Mood:</p>
+				<button id="emoji-button"><i class="em em-smile extbox-content"></i></button>
+				<button id="emoji-buttons"><i class="em em-grimacing"></i></button>
+				<button id="emoji-buttons"><i class="em em-pensive"></i></button>
+				<p>Weather:</p>
+				<button id="weather-button"><i class="em em-sunny"></i></button>
+				<button id="weather-button"><i class="em em-partly_sunny">></i></button>
+				<button id="weather-button"><i class="em em-umbrella"></i></button>
 	    </div>
-
-
-
-
-
 	  <a href="/more-details"><button class="submit">Add more details about your day</button></a>
 	</form>
 	</div>
