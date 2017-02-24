@@ -9,5 +9,5 @@ exports.addAnswer = function(req, res) { 
   var weather = "em em-" + req.query.weather;
   var userobj = {"title": title, "date": date, "items": items, "emoji": emoji, "weather": weather};
   data.lists.unshift(userobj);
-  res.render('list', data);
+  res.render('subList', data);
  }
