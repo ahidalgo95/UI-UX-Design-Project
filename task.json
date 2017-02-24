@@ -1,13 +1,50 @@
 {
   "tasks": [
     {
-      "task": "List 3 things you are grateful for"
+      "task": "List 3 things that make you happy. "
     },
     {
-      "task": "List 3 things you are happy about"
+      "task": "List 3 nice things someone has done for you lately."
+    }, 
+    {
+      "task": "List 3 nice things you can do for someone else today."
     },
     {
-      "task": "List 3 things you have learnt today"
+      "task": "List 3 of the best choices you have made in your day so far."
+    },
+    {
+      "task": "List 3 notable things about your day. "
+    },
+    {
+      "task": "List 3 ways your emotions have been affecting your behavior. "
+    },
+    {
+      "task": "List 3 qualities you love about your best friend."
+    },
+    {
+      "task": "List 3 songs that you listened to today."
+    },
+    {
+      "task": "List 3 things you feel you could be more appreciative of. "
+    },
+    {
+      "task": "List 3 things you feel you’re good at. "
+    },
+    {
+      "task": "List 3 things you people who have impacted your life. "
+    },
+    {
+      "task": "List 3 ways you will bring mindfulness to your day today. "
+    },
+    {
+      "task": "List 3 small things you can do to make your day enjoyable today." 
+    },
+    {
+      "task": "List 3 things you would like to accomplish in the next 5 years. "
+    },
+    {
+      "task": "List 3 people you haven’t talked to in a while. "
+    },
+    {
+      "task": "Try and bring an awareness to your body. List 3 things you noticed. "
     }
-  ]
-}
