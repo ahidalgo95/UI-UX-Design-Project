@@ -39,8 +39,7 @@
 </nav>
 <!-- NAV BAR END -->
 
-
-	<div class="top-container">
+<div class="top-container">
 	  <h2>Your List Today</h2>
 
 	  <div class = "todaylist">
@@ -48,21 +47,21 @@
 		<form id="addToday" role = "form" method="get" action="/subList">
 
 	    <div id="list-form">
-	      <input type="text" class="form-control" id="name" placeholder="Name" name="name">
-        <!--<TEXTAREA NAME="Address" ROWS=3 COLS=50 >
-        </TEXTAREA> -->
+				<textarea id="name" name="name" cols="40" rows="5"></textarea>
         </br>
 				<button class="submit">Submit</button>
 				<button id="edit-button">Edit</button>
-
+				<input type="hidden" name="taskTitle" value="{{task}}" />
 				<p>Mood:</p>
 				<button id="emoji-button"><i class="em em-smile extbox-content"></i></button>
 				<button id="emoji-buttons"><i class="em em-grimacing"></i></button>
 				<button id="emoji-buttons"><i class="em em-pensive"></i></button>
 				<p>Weather:</p>
 				<button id="weather-button"><i class="em em-sunny"></i></button>
-				<button id="weather-button"><i class="em em-partly_sunny">></i></button>
+				<button id="weather-button"><i class="em em-partly_sunny"></i></button>
+				<button id="weather-button"><i class="em em-cloud"></i></button>
 				<button id="weather-button"><i class="em em-umbrella"></i></button>
+				<button id="weather-button"><i class="em em-snowflake"></i></button>
 	    </div>
 	  <a href="/more-details"><button class="submit">Add more details about your day</button></a>
 	</form>
