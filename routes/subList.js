@@ -5,8 +5,8 @@ exports.addAnswer = function(req, res) { 
   var title = req.query.taskTitle;
   var date = det.toDateString();
   var items = req.query.name;
-  var emoji = "emoj";
-  var weather = "weather";
+  var emoji = "em em-" + req.query.mood;
+  var weather = "em em-" + req.query.weather;
   var userobj = {"title": title, "date": date, "items": items, "emoji": emoji, "weather": weather};
   data.lists.unshift(userobj);
   res.render('list', data);

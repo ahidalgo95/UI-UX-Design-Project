@@ -136,3 +136,11 @@ padding: 10px;
 #edit-button {
   display:none;
 }
+
+/*label > input{ /* HIDE RADIO */
+  display: none;
+}
+
+label > input:checked { /* (RADIO CHECKED) IMAGE STYLES */
+  border:2px solid #f00;
+}*/
