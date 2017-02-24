@@ -1,39 +1,60 @@
 {
   "lists": [
     {
-      "title": "Happy about",
+      "title": "What are you aware of right now?",
+      "date": "Thur Feb 23 2017",
+      "items": "My life, school work, and what foods I put in my body",
+      "emoji": "em em-grimacing",
+      "weather": "em em-partly_sunny"
+    },
+    {
+      "title": "What are you happy about?",
+      "date": "Wed Feb 22 2017",
+      "items": "Cheese, Grilled cheese, and Coffee",
+      "emoji": "em em-smile textbox-content",
+      "weather": "em em-cloud"
+    },
+    {
+      "title": " Are you feeling good at things lately?",
+      "date": "Tue Feb 21 2017",
+      "items": "1. Coding! 2. Drinking beer! 3. Finding great music online!",
+      "emoji": "em em-smile textbox-content",
+      "weather": "em em-cloud"
+    },
+    {
+      "title": "What are some small moments you may have forget about?",
       "date": "Mon Feb 20 2017",
-      "items": "Cheese, Coffee, Rob",
+      "items": "The great cup of coffee I had today and the amazign way it smelled, Buying Fraser a beer, and Saying hi to Rob",
       "emoji": "em em-smile textbox-content",
-      "weather": "em em-sunny textbox-content"
+      "weather": "em em-cloud"
     },
     {
-      "title": "Grateful for",
+      "title": "List a few things you are grateful for",
       "date": "Sun Feb 19 2017",
-      "items": "Cheese, Coffee, Rob",
+      "items": "1. Sunshine after the storm 2.The cure 3. Chicken Nuggets",
       "emoji": "em em-smile textbox-content",
       "weather":"em em-sunny textbox-content"
     },
     {
-      "title": "Inspired by",
+      "title": "List the things you are feeling inspired by",
       "date": "Sat Feb 18 2017",
-      "items": "Cheese, Coffee, Rob",
-      "emoji": "em em-smile textbox-content",
+      "items": "I am feeling really inspired by the work I am accomplishing in the COGS120/CSE170 class! I am getting better at my coding and that is pretty inspiring",
+      "emoji": "em em-pensive",
       "weather":"em em-sunny textbox-content"
     },
     {
-      "title": "Feeling encouraged by",
+      "title": "Is there anything you are feeling encouraged by",
       "date": "Fri Feb 17 2017",
       "items": "Cheese, Coffee, Rob",
-      "emoji": "em em-smile textbox-content",
-      "weather":"em em-sunny textbox-content"
+      "emoji": "em em-grimacing",
+      "weather":"em em-cloud"
     },
     {
-      "title": "Interested in",
+      "title": "List three things you are interested in",
       "date": "Thur Feb 16 2017",
       "items": "Cheese, Coffee, Rob",
       "emoji": "em em-smile textbox-content",
-      "weather":"em em-sunny textbox-content"
+      "weather":"em em-umbrella"
 
     },
     {
@@ -55,28 +76,28 @@
       "date": "Mon Feb 13 2017",
       "items": "Cheese, Coffee, Rob",
       "emoji": "em em-smile textbox-content",
-      "weather":"em em-sunny textbox-content"
+      "weather":"em em-cloud"
     },
     {
       "title": "Things you feel like you've improved on",
       "date": "Sun Feb 12 2017",
       "items": "Cheese, Coffee, Rob",
       "emoji": "em em-smile textbox-content",
-      "weather":"em em-sunny textbox-content"
+      "weather":"em em-umbrella"
     },
     {
       "title": "Happy about",
       "date": "Sat Feb 11 2017",
       "items": "Cheese, Coffee, Rob",
       "emoji": "em em-smile textbox-content",
-      "weather":"em em-sunny textbox-content"
+      "weather":"em em-umbrella"
     },
     {
       "title": "Grateful for",
       "date": "Fri Feb 10 2017",
       "items": "Cheese, Coffee, Rob",
-      "emoji": "em em-smile textbox-content",
-      "weather":"em em-sunny textbox-content"
+      "emoji": "em em-pensive",
+      "weather":"em em-partly_sunny"
     },
     {
       "title": "Happy about",
@@ -90,20 +111,20 @@
       "date": "Wed Feb 8 2017",
       "items": "Cheese, Coffee, Rob",
       "emoji": "em em-smile textbox-content",
-      "weather":"em em-sunny textbox-content"
+      "weather":"em em-partly_sunny"
     },
     {
       "title": "Happy about",
       "date": "Tue Feb 7 2017",
       "items": "Cheese, Coffee, Rob",
       "emoji": "em em-grimacing textbox-content",
-      "weather":"em em-sunny textbox-content"
+      "weather":"em em-partly_sunny"
     },
     {
       "title": "Talked about",
       "date": "Mon Feb 6 2017",
       "items": "Cheese, Coffee, Rob",
-      "emoji": "em em-smile textbox-content",
+      "emoji": "em em-grimacing",
       "weather":"em em-sunny textbox-content"
     },
     {
@@ -111,7 +132,7 @@
       "date": "Sun Feb 5 2017",
       "items": "Cheese, Coffee, Rob",
       "emoji": "em em-smile textbox-content",
-      "weather":"em em-sunny textbox-content"
+      "weather":"em em-cloud"
     }
   ]
 }
