@@ -146,13 +146,16 @@ padding: 10px;
   display:none;
 }
 
-/*label > input{ /* HIDE RADIO */
-  display: none;
+.emoji {
+  margin: 8px;
 }
 
-label > input:checked { /* (RADIO CHECKED) IMAGE STYLES */
-  border:2px solid #f00;
+input[type="radio"]{
+  display: block;
+  margin: 0 auto;
 }
+
+
 
 #listSubmit {
   display: block;

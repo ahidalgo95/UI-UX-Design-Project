@@ -2,10 +2,11 @@
 <head>
 	<title>List</title>
    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
-	 <link href="/css/hcilist.css" rel="stylesheet">
+
 	 <link href="/css/bootstrap-theme.css" rel="stylesheet">
 	 <link href="/css/bootstrap.css" rel="stylesheet">
 	 <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+	 	 <link href="/css/hcilist.css" rel="stylesheet">
 
 </head>
 <body background="http://www.tananyag.almasi.hu/szlavikne/Light%20Blue%20Green%20Grad%20BK.jpg">
@@ -53,47 +54,47 @@
 				<button id="edit-button">Edit</button>
 				<input type="hidden" name="taskTitle" value="{{task}}" />
 				<p>Mood:</p>
-				<label>
-				  <input type="radio" name="mood" value="smile" />
+				<label class="emoji">
 				  <i class="em em-smile"></i>
-				</label>
+					<input type="radio" name="mood" value="smile" />
+				</label class="emoji">
 
-				<label>
-				  <input type="radio" name="mood" value="grimacing" />
+				<label class="emoji">
 				  <i class="em em-grimacing"></i>
-				</label>
+					<input type="radio" name="mood" value="grimacing" />
+				</label class="emoji">
 
-				<label>
-				  <input type="radio" name="mood" value="pensive" />
+				<label class="emoji">
 				  <i class="em em-pensive"></i>
-				</label>
+					<input type="radio" name="mood" value="pensive" />
+				</label class="emoji">
 
 				<p>Weather:</p>
-				<label>
-				  <input type="radio" name="weather" value="sunny" />
+				<label class="emoji">
 				  <i class="em em-sunny"></i>
-				</label>
+					<input type="radio" name="weather" value="sunny" />
+				</label class="emoji">
 
 				<!-- <button id="weather-button"><i class="em em-partly_sunny"></i></button> -->
-				<label>
-				  <input type="radio" name="weather" value="partly_sunny" />
+				<label class="emoji">
 				  <i class="em em-partly_sunny"></i>
-				</label>
+					<input type="radio" name="weather" value="partly_sunny" />
+				</label class="emoji">
 				<!-- <button id="weather-button"><i class="em em-cloud"></i></button> -->
-				<label>
-				  <input type="radio" name="weather" value="cloud" />
+				<label class="emoji">
 				  <i class="em em-cloud"></i>
-				</label>
+					<input type="radio" name="weather" value="cloud" />
+				</label class="emoji">
 				<!-- <button id="weather-button"><i class="em em-umbrella"></i></button> -->
-				<label>
-				  <input type="radio" name="weather" value="umbrella" />
+				<label class="emoji">
 				  <i class="em em-umbrella"></i>
-				</label>
+					<input type="radio" name="weather" value="umbrella" />
+				</label class="emoji">
 				<!-- <button id="weather-button"><i class="em em-snowflake"></i></button> -->
-				<label>
-				  <input type="radio" name="weather" value="snowflake" />
+				<label class="emoji">
 				  <i class="em em-snowflake"></i>
-				</label>
+					<input type="radio" name="weather" value="snowflake" />
+				</label class="emoji">
 				<button class="submit" id="listSubmit">Submit</button>
 	    </div>
 	  <!-- <a href="/more-details"><button class="submit">Add more details about your day</button></a> -->
