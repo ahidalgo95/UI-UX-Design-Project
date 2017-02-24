@@ -15,6 +15,7 @@ var moreDetails = require('./routes/moreDetails');
 var settings = require('./routes/settings');
 var help = require('./routes/help');
 var addList = require('./routes/addList');
+var subList = require('./routes/subList');
 // Example route
 // var user = require('./routes/user');
 
@@ -43,11 +44,12 @@ if ('development' == app.get('env')) {
 // Add routes here
 app.get('/index', index.view);
 app.get('/', login.view);
-app.get('/list', list.addAnswer);
+app.get('/list', list.view);
 app.get('/more-details', moreDetails.view);
 app.get('/settings', settings.view);
 app.get('/help', help.view);
 app.get('/add-list', addList.view);
+app.get('/subList', subList.addAnswer);
 // Example route
 // app.get('/users', user.list);
 
