@@ -1,0 +1,92 @@
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
+	<title>Home</title>
+		<link href="/css/bootstrap-theme.css" rel="stylesheet">
+		<link href="/css/bootstrap.css" rel="stylesheet">
+		<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+		<link href="/css/hcilist.css" rel="stylesheet">
+</head>
+
+<body background="http://www.tananyag.almasi.hu/szlavikne/Light%20Blue%20Green%20Grad%20BK.jpg">
+	<div class="app">
+
+
+
+		<!-- NAVBAR -->
+		<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/index">Recollections</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+				<li><a href="/index">Home</a></li>
+				<li><a href="/add-list">Add your own list</a></li>
+				<li><a href="/settings">Settings</a></li>
+				<li><a href="/help">Help</a></li>
+				<li><a href="/">Logout</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<!-- NAV BAR END -->
+
+
+
+    <div class="top-container">
+			<div>
+				<h3 id="demo"></h3>
+			</div>
+				<script>
+				var d= new Date();
+				document.getElementById("demo").innerHTML = d.toDateString();
+				</script>
+			<div>
+
+
+	<div class="app">
+	<div class="top-container">
+	<div>
+	<h3 id="demo"></h3>
+	</div>
+	<script>
+	var d= new Date();
+	document.getElementById("demo").innerHTML = d.toDateString();
+	</script>
+	<div>
+	</div>
+	<a href="/list" id="start">Start Today</a>
+	</div>
+	<div>
+
+	<h3 class="heading" id="index-heading">Your Recollections</h3>
+	</div>
+		{{#each lists}}
+				<div class="textbox">
+					<h4 class="textbox-date">{{date}}</h4>
+					<h3 class="textbox-title">{{title}}</h3>
+					<p class="textbox-content">{{items}}</p>
+
+					<h3 class="textbox-title">Your mood was</h3>
+					<i class="{{emoji}}"></i>
+
+					<h3 class="textbox-title">The weather was</h3>
+					<i class="{{weather}}"></i>
+				</div>
+		{{/each}}
+		</div>
+		<script src="/js/jquery-1.11.0.js"></script>
+		<script src="/js/bootstrap.min.js"></script>
+		<script src="/js/index.js"></script>
+	</body>
+</html>
