@@ -47,13 +47,18 @@ padding: 10px;
 
 }
 
+.flex-spread {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .em {
   width: 40px;
   height: 40px;
 }
 
 .textbox-date {
-  margin-bottom: 16px;
 }
 .textbox-title {
  color: lightskyblue;
@@ -68,6 +73,28 @@ padding: 10px;
   color: cornflowerblue;
   text-align: center;
   font-size: 30px;
+}
+
+.cardHeader #dropdownMenu1 {
+    background: none;
+    height: 25px;
+    margin-bottom: 5px;
+}
+
+.modal-close {
+  m
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.dropdown-menu {
+  left: -47;
+  min-width: 0;
 }
 
 #index-heading {
