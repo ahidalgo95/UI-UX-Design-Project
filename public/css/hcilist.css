@@ -190,6 +190,15 @@ input[type="radio"]{
   margin: 0 auto;
 }
 
+.btnContainer {
+  display: flex;
+  margin-top: 15px;
+}
+
+.saveBtn {
+  margin: auto;
+}
+
 
 
 #listSubmit {

@@ -1,7 +1,7 @@
 var data= require('../data.json');
 var taskData = require('../task.json');
 var helper = require('../public/js/helper.js');
-var index = 1;//Math.floor(Math.random()*question.length);
+var index = Math.floor(Math.random()*taskData.tasks.length);
 var task = taskData.tasks[index];
 
 

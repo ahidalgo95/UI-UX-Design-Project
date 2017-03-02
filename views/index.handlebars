@@ -82,7 +82,7 @@
 						  </button>
 
 						  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-								<li><a data-toggle="modal" id="editModalButton" data-target="#editModal">
+								<li><a data-toggle="modal" class="editModalButton" data-target="#editModal">
 								  Edit
 								</a></li>
 								<li><a data-toggle="modal" class="deleteModalButton"data-target="#deleteModal">
@@ -97,15 +97,17 @@
 					<p class="textbox-content">{{items}}</p>
 
 					<h3 class="textbox-title">Your mood was</h3>
-					<i class="{{emoji}}"></i>
+					<i class="{{emoji}} card-emoji"></i>
 
 					<h3 class="textbox-title">The weather was</h3>
-					<i class="{{weather}}"></i>
+					<i class="{{weather}} card-weather"></i>
 				</div>
 		{{/each}}
 
 
 		<!-- Button trigger modal -->
+
+		<!-- Modal -->
 
 
 <!-- Modal -->
