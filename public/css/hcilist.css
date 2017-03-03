@@ -199,6 +199,11 @@ input[type="radio"]{
   margin: auto;
 }
 
+.screen2{
+   padding-left: 120px; 
+   padding-right: 120px; 
+ }
+
 
 
 #listSubmit {
