@@ -7,12 +7,33 @@
 	 <link href="/css/bootstrap.css" rel="stylesheet">
 </head>
 
-<body background="http://www.tananyag.almasi.hu/szlavikne/Light%20Blue%20Green%20Grad%20BK.jpg">
-	<div class="top-container">
+<body background="https://s-media-cache-ak0.pinimg.com/564x/8a/c5/f3/8ac5f3ea403e5eaab530a41ab35b832c.jpg">
+
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '1266173776791798',
+      xfbml      : true,
+      version    : 'v2.8'
+    });
+    FB.AppEvents.logPageView();
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
+
+		<div class="top-container">
 		<h2>Welcome to</h2>
 		<h2>RECOLLECTIONS!</h2>
 		<h3>Login</h3>
-
+		<h1 id="name">Welcome: Michael Bernstein</h1>
 	  <div id="userName" class="login">
 			<form id="addUser" method= "get" action="/login">
 	    <p>Username: <input type="text" id="user" placeholder="type" name="person" required/></p>
@@ -21,10 +42,14 @@
 			</form>
 		</div>
 	    <a href="/index"> <button class="submit">Submit</button></a>
+			<fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+</fb:login-button>
 
 		<p>Want to practice being mindful, but unsure of where to start? With its daily guided microjournaling, Recollections will help you achieve mindfulness!</p>
 
 		<p>Happy reflecting! </p>
 	</div>
+	{{> facebook}}
+<script src="/js/facebook.js"></script>
 </body>
 </html>
