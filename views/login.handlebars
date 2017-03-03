@@ -28,12 +28,15 @@
    }(document, 'script', 'facebook-jssdk'));
 </script>
 
-
+<!--<p class="facebookLogin">
+		Please login through Facebook
+		<fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+		</fb:login-button>
+	</p> -->
 		<div class="top-container">
 		<h2>Welcome to</h2>
 		<h2>RECOLLECTIONS!</h2>
 		<h3>Login</h3>
-		<h1 id="name">Welcome: Michael Bernstein</h1>
 	  <div id="userName" class="login">
 			<form id="addUser" method= "get" action="/login">
 	    <p>Username: <input type="text" id="user" placeholder="type" name="person" required/></p>
@@ -42,14 +45,13 @@
 			</form>
 		</div>
 	    <a href="/index"> <button class="submit">Submit</button></a>
-			<fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
-</fb:login-button>
-
+			<!-- <fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+			-->
 		<p>Want to practice being mindful, but unsure of where to start? With its daily guided microjournaling, Recollections will help you achieve mindfulness!</p>
 
 		<p>Happy reflecting! </p>
 	</div>
 	{{> facebook}}
-<script src="/js/facebook.js"></script>
+	<script src="/js/facebook.js"></script>
 </body>
 </html>
