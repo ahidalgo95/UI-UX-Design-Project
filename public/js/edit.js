@@ -26,22 +26,58 @@ $(".editModalButton").click(function() {
         tBox.find('p.textbox-content').replaceWith(newTContent);
 
 
-        var newEmoji = $('<div class="edit-mode">'
-        + '<label class="emoji">'
-				 +'<i class="em em-smile"></i>'
-					+'<input type="radio" name="mood" value="smile" />'
-				+'</label class="emoji">'
+        var newEmoji = $('<div class="edit-mode">' +
+        "<label class=\"emoji\">\n" +
+        "  <i class=\"em em-smile\"></i>\n" +
+        "  <input type=\"radio\" name=\"mood\" value=\"smile\" />\n" +
+        "</label class=\"emoji\">\n" +
+        "\n" +
+        "<label class=\"emoji\">\n" +
+        "  <i class=\"em em-grimacing\"></i>\n" +
+        "  <input type=\"radio\" name=\"mood\" value=\"grimacing\" />\n" +
+        "</label class=\"emoji\">\n" +
+        "\n" +
+        "<label class=\"emoji\">\n" +
+        "  <i class=\"em em-smirk\"></i>\n" +
+        "  <input type=\"radio\" name=\"mood\" value=\"smirk\" />\n" +
+        "</label class=\"emoji\">\n" +
+        "\n" +
+        "<label class=\"emoji\">\n" +
+        "  <i class=\"em em-stuck_out_tongue\"></i>\n" +
+        "  <input type=\"radio\" name=\"mood\" value=\"stuck_out_tongue\" />\n" +
+        "</label class=\"emoji\">\n" +
+        "\n" +
+        "<label class=\"emoji\">\n" +
+        "  <i class=\"em em-flushed\"></i>\n" +
+        "  <input type=\"radio\" name=\"mood\" value=\"flushed\" />\n" +
+        "</label class=\"emoji\">\n" +
+        "\n" +
+        "<label class=\"emoji\">\n" +
+        "  <i class=\"em em-cold_sweat\"></i>\n" +
+        "  <input type=\"radio\" name=\"mood\" value=\"cold_sweat\" />\n" +
+        "</label class=\"emoji\">\n" +
+        "\n" +
+        "<label class=\"emoji\">\n" +
+        "  <i class=\"em em-pensive\"></i>\n" +
+        "  <input type=\"radio\" name=\"mood\" value=\"pensive\" />\n" +
+        "</label class=\"emoji\">\n" +
+        "\n" +
+        "<label class=\"emoji\">\n" +
+        "  <i class=\"em em-sob\"></i>\n" +
+        "  <input type=\"radio\" name=\"mood\" value=\"sob\" />\n" +
+        "</label class=\"emoji\">\n" +
+        "\n" +
+        "<label class=\"emoji\">\n" +
+        "  <i class=\"em em-angry\"></i>\n" +
+        "  <input type=\"radio\" name=\"mood\" value=\"angry\" />\n" +
+        "</label class=\"emoji\">\n" +
+        "\n" +
+        "<label class=\"emoji\">\n" +
+        "  <i class=\"em em-rage\"></i>\n" +
+        "  <input type=\"radio\" name=\"mood\" value=\"rage\" />\n" +
+        "</label class=\"emoji\">" +
 
-				+'<label class="emoji">'
-				+ '<i class="em em-grimacing"></i>'
-				+	'<input type="radio" name="mood" value="grimacing" />'
-				+ '</label class="emoji">'
-
-				+ '<label class="emoji">'
-        		+  '<i class="em em-pensive"></i>'
-				+  '<input type="radio" name="mood" value="pensive" />'
-				+ '</label class="emoji">'
-        + '</div>');
+         '</div>');
 
           var oldEmoji = tBox.find('.card-emoji').attr('class').split(" ")[1].split("-")[1];
           console.log(oldEmoji);
@@ -73,13 +109,14 @@ $(".editModalButton").click(function() {
         	+'<label class="emoji">'
           +  '<i class="em em-snowflake"></i>'
           +  '<input type="radio" name="weather" value="snowflake" />'
-        + '</label class="emoji">'
-        + '</div>');
+        + '</label class="emoji">' +
+
+
+          '</div>');
+
 
         var oldWeather = tBox.find('.card-weather').attr('class').split(" ")[1].split("-")[1];
-        console.log(oldWeather);
 
-        console.log(newWeather.find("input[value='"+oldWeather+"']").prop("checked", true));
         tBox.find('.card-weather').replaceWith(newWeather);
 
         var saveBtn = $('<button type="button" class="btn btn-danger saveBtn">Save Changes</button>');
