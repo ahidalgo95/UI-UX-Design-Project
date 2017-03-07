@@ -4,6 +4,7 @@ $(document).ready(function() {
   var hasClickedHelp = false;
   var hasClickedStart = false;
   var reached= false;
+  var clickedAccordion= false;
 
   // Scroll analytics event
   $(window).scroll(function() {
@@ -67,7 +68,12 @@ $(window).scroll(function() {
 
 
 $("#accordion").children().eq(4).click(function() {
-  console.log("clicked tenth accordion");
+    if(clickedAccordion === false) {
+      console.log("clicked tenth accordion");
+      ga("send", "event", "10recollections", "moved");
+      clickedAccordion = true;
+    }
+
 });
 
   var timerEvent15s = setTimerEvent(15000, "15 seconds");
