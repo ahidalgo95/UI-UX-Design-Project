@@ -3,6 +3,7 @@ $(document).ready(function() {
   var hasScrolled=false;
   var hasClickedHelp = false;
   var hasClickedStart = false;
+  var reached= false;
 
   // Scroll analytics event
   $(window).scroll(function() {
@@ -55,9 +56,13 @@ $(document).ready(function() {
 
 
 $(window).scroll(function() {
-  if ($(window).scrollTop() >= 50) {
-                      // user scrolled 50 pixels or more;
-  ga("send", "event", "pagescroll", "moved");
+  if ($(window).scrollTop() >= 17800) {
+  // user scrolled amt  pixels or more;
+  if(hasScrolled==false){
+    hasScrolled=true;
+    console.log(made it); 
+    ga("send", "event", "pagescroll", "moved");
+  }
 } });
 
 
