@@ -56,11 +56,11 @@ $(document).ready(function() {
 
 
 $(window).scroll(function() {
-  if ($(window).scrollTop() >= 17000) {
+  if ($(window).scrollTop() >= 1600) {
   // user scrolled amt  pixels or more;
   if(reached==false){
     reached=true;
-    console.log("moved");
+    console.log("scrolled 5 recollections");
     ga("send", "event", "10recollections", "moved");
   }
 } });
