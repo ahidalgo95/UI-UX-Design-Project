@@ -56,18 +56,15 @@ $(document).ready(function() {
 
 
 $(window).scroll(function() {
-  if ($(window).scrollTop() >= 17800) {
+  if ($(window).scrollTop() >= 17000) {
   // user scrolled amt  pixels or more;
-  if(hasScrolled==false){
-    hasScrolled=true;
-    console.log(made it); 
-    ga("send", "event", "pagescroll", "moved");
+  if(reached==false){
+    reached=true;
+    console.log("moved");
+    ga("send", "event", "10recollections", "moved");
   }
 } });
 
-
-// click help analytics event
-$("#menu-help").click(function() {
   var timerEvent15s = setTimerEvent(15000, "15 seconds");
   var timerEvent30s = setTimerEvent(30000, "30 seconds");
   var timerEventOneMin = setTimerEvent(60000, "One minute");
