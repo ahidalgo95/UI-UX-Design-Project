@@ -65,6 +65,11 @@ $(window).scroll(function() {
   }
 } });
 
+
+$("#accordion").children().eq(4).click(function() {
+  console.log("clicked tenth accordion");
+});
+
   var timerEvent15s = setTimerEvent(15000, "15 seconds");
   var timerEvent30s = setTimerEvent(30000, "30 seconds");
   var timerEventOneMin = setTimerEvent(60000, "One minute");
