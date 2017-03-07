@@ -57,12 +57,10 @@ $(document).ready(function() {
 $(window).scroll(function() {
   if ($(window).scrollTop() >= 50) {
                       // user scrolled 50 pixels or more;
+                      console.log("scrolled 50");
   ga("send", "event", "pagescroll", "moved");
 } });
 
-
-// click help analytics event
-$("#menu-help").click(function() {
   var timerEvent15s = setTimerEvent(15000, "15 seconds");
   var timerEvent30s = setTimerEvent(30000, "30 seconds");
   var timerEventOneMin = setTimerEvent(60000, "One minute");
