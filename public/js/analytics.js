@@ -1,6 +1,8 @@
 var hasScrolled=false;
 var hasClickedHelp = false;
 var hasClickedStart = false;
+var secondHome=false; 
+var scrollHome=false; 
 
 // Scroll analytics event
 $(window).scroll(function() {
@@ -10,6 +12,14 @@ $(window).scroll(function() {
     ga("send", "event", "pagescroll", "scroll");
   }
 });
+
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() >= 50) {
+                      // user scrolled 50 pixels or more;
+  ga("send", "event", "pagescroll", "moved");
+} });
+
 
 // click help analytics event
 $("#menu-help").click(function() {
