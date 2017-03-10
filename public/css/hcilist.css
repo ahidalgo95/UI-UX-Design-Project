@@ -226,6 +226,7 @@ padding: 10px;
   display: flex;
 }
 .submit{
+  box-shadow: 4px 4px 4px #888888;
   background: #445DDF;
   color: white;
   border-radius: 10px;
@@ -273,6 +274,7 @@ input[type="radio"]{
 }
 
 .saveBtn {
+  box-shadow: 4px 4px 4px #888888;
   margin: auto;
 }
 
