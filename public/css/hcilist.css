@@ -34,10 +34,6 @@ background-size: cover;
   margin-top: 0;
 }
 
-#accordion {
-  margin:0 20px;
-}
-
 
 img {
   display: block;
@@ -58,7 +54,6 @@ padding-right: 10px;
 padding-left: 10px;
 /* border: 5px solid gray; */
 background: white;
-margin-bottom: 40px;
 padding: 10px;
 }
 
@@ -94,14 +89,25 @@ padding: 10px;
  margin-bottom: 0;
 }
 
+.dropdown {
+  display: none;
+}
+
 .accordion-link, .accordion-link:focus {
   text-decoration: none;
 }
 
 .accordion-title {
   color: cornflowerblue;
-  margin-top:0;
+  margin:0;
   font-size: 16px;
+}
+.panel-group {
+  margin-bottom: 25px;
+}
+
+.panel-group .panel {
+  margin-bottom: 6px;
 }
 
 .dropdown-menu {
@@ -142,11 +148,19 @@ padding: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 5px 10px;
+}
+
+.accordion-toggle {
+  padding: 5px 5px;
 }
 
 .accordion-item {
   margin-bottom: 20px;
-  background: red;
+}
+
+.panel-heading {
+  padding: 0;
 }
 
 .dropdown-menu {

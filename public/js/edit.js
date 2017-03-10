@@ -3,7 +3,7 @@ $(".deleteModalButton").click(function() {
   var self = $(this);
 
   $("#deleteCardButton").click(function() {
-    self.closest(".textbox").remove();
+    self.closest(".accordion-item").remove();
     $('#deleteModal').modal('hide');
   });
 })
@@ -16,7 +16,7 @@ $(".editModalButton").click(function() {
   var self = $(this);
 
        // get textbox that is to be edited
-        var tBox =   self.closest(".textbox")
+        var tBox =   self.closest(".accordion-item")
         tBox.css("border", "3px solid red");
 
         // make text content editable

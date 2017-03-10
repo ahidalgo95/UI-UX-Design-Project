@@ -1,7 +1,7 @@
-$(".accordion-link").click(function() {
+$(".accordion-toggle").click(function() {
   console.log("click");
   $(this).find(".accordion-title").toggle();
-  // $(this).find(".dropdown").toggle();
+  $(this).parent().find(".dropdown").toggle();
 })
 
 // $(".dropdown").click(function(e) {

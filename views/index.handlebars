@@ -65,35 +65,32 @@
 		<div class="panel panel-default accordion-link accordion-item">
 			<div class="panel-heading">
 				<div class="accordion-header">
-					<div data-toggle="collapse" data-parent="#accordion" href="#collapse{{@index}}">
+					<div class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse{{@index}}">
 						<h4 class="panel-title">
 							{{date}}
 						</h4>
 						<h3 class="accordion-title">{{title}}</h3>
 					</div>
+					<!-- Dropdown -->
+					<div class="dropdown">
+						<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+							<span class="caret"></span>
+						</button>
+
+						<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+							<li><a data-toggle="modal" class="editModalButton" data-target="#editModal">
+								Edit
+							</a></li>
+							<li><a data-toggle="modal" class="deleteModalButton"data-target="#deleteModal">
+								Delete
+							</a></li>
+						</ul>
+					</div>
+					<!-- end dropdown -->
 
 			</div>
 			    <div id="collapse{{@index}}" class="panel-collapse collapse">
 				<div class="textbox">
-					<div class="cardHeader">
-						<h4 class="textbox-date">{{date}}</h4>
-						<!-- Dropdown -->
-						<div class="dropdown">
-						  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-						    <span class="caret"></span>
-						  </button>
-
-						  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-								<li><a data-toggle="modal" class="editModalButton" data-target="#editModal">
-								  Edit
-								</a></li>
-								<li><a data-toggle="modal" class="deleteModalButton"data-target="#deleteModal">
-								  Delete
-								</a></li>
-						  </ul>
-						</div>
-						<!-- end dropdown -->
-					</div>
 
 					<h3 class="textbox-title">{{title}}</h3>
 					<p class="textbox-content">{{items}}</p>
