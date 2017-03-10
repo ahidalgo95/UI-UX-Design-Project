@@ -51,7 +51,7 @@ app.get('/secondhome', secondhome.view);
 app.get('/more-details', moreDetails.view);
 app.get('/settings', settings.view);
 app.get('/help', help.view);
-app.get('/add-list', addList.view);
+app.get('/add-question', addList.view);
 app.get('/subList', subList.addAnswer);
 app.get('/addedList', addedList.addItem);
 // Example route
