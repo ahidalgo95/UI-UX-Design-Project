@@ -116,7 +116,7 @@ $(".editModalButton").click(function() {
 
 
         var oldWeather = tBox.find('.card-weather').attr('class').split(" ")[1].split("-")[1];
-        newWeather.find("input[value='"+oldWeather+"']").prop("checked", true));
+        newWeather.find("input[value='"+oldWeather+"']").prop("checked", true);
         tBox.find('.card-weather').replaceWith(newWeather);
 
         var saveBtn = $('<button type="button" class="btn btn-danger saveBtn">Save Changes</button>');
