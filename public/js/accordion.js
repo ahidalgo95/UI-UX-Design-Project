@@ -1,0 +1,10 @@
+$(".accordion-link").click(function() {
+  console.log("click");
+  $(this).find(".accordion-title").toggle();
+  // $(this).find(".dropdown").toggle();
+})
+
+// $(".dropdown").click(function(e) {
+//   e.stopPropagation();
+//   $(".dropdown-menu").toggle();
+// })

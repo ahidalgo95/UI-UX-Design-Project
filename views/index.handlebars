@@ -59,7 +59,21 @@
 
 	<h3 class="heading" id="index-heading">Your Recollections</h3>
 	</div>
+
+	<div class="panel-group top" id="accordion">
 		{{#each lists}}
+		<div class="panel panel-default accordion-link accordion-item">
+			<div class="panel-heading">
+				<div class="accordion-header">
+					<div data-toggle="collapse" data-parent="#accordion" href="#collapse{{@index}}">
+						<h4 class="panel-title">
+							{{date}}
+						</h4>
+						<h3 class="accordion-title">{{title}}</h3>
+					</div>
+
+			</div>
+			    <div id="collapse{{@index}}" class="panel-collapse collapse">
 				<div class="textbox">
 					<div class="cardHeader">
 						<h4 class="textbox-date">{{date}}</h4>
@@ -90,7 +104,11 @@
 					<h3 class="textbox-title">The weather was</h3>
 					<i class="{{weather}} card-weather"></i>
 				</div>
+			</div>
+			</div>
+		</div>
 		{{/each}}
+	</div>
 
 
 		<!-- Button trigger modal -->
@@ -134,6 +152,7 @@
 		<script src="/js/index.js"></script>
 		<script src="/js/edit.js"></script>
 		<script src="/js/analytics.js"></script>
+		<script src="/js/accordion.js"></script>
 		{{> ga}}
 	</body>
 </html>

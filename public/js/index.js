@@ -21,6 +21,10 @@ var data = {
 	]
 }
 
+$(document).ready(function() {
+    $(".dropdown-toggle").dropdown();
+});
+
 var formValues = JSON.parse(localStorage.getItem('formValues')) || {};
 var $checkboxes = $("#checkbox-container :checkbox");
 var $button = $("#checkbox-container button");
