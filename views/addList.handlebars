@@ -12,21 +12,35 @@
 	{{> navbar}}
 
     <div class="top-container">
-			<h3>Create your own list idea</h3>
+			<h3>Create your own idea</h3>
 					<p>In order to help you  have flexibility over your mindfulness, we have allowed a way
 					to add in your own list idea that you would like to answer!
 				    If you have an idea for a list you would like to fill out, type it in the box below and we'll review it and add it to our database</p>
+
+
+ 
+
      <form id="addList" role="form" method="get" action="/addedList">
-			<textarea id="name" name="name" cols="40" rows="5" placeholder="ex: List 3 things you would like to accomplish today." class="listItem"></textarea>
+			<textarea id="name" name="name" cols="40" rows="5" placeholder="Example: List 3 things you would like to accomplish today." class="listItem"></textarea>
 			<br />
-     	<button class="submit">Submit</button>
 		</form>
+     	<button id="sButton" class="submit">Submit</button>
     </div>
-		{{#each items}}
+		{{#each data.items}}
 		<h4>{{before}}</h4>
 		<h4>{{title}}</h4>
 			<h4>{{after}}</h4>
 		{{/each}}
+
+
+ <p class="todaylist">Lists already in our database:</p>
+ <div id= "inputList" class= "todaylist">
+ {{#each moreData.lists}}
+   <p class="textbox-content">{{title}}</p>
+  {{/each}}
+ </div>
+ <br>
+
 		<script src="/js/jquery-1.11.0.js"></script>
 		<script src="/js/bootstrap.min.js"></script>
 		<script src="/js/index.js"></script>

@@ -153,3 +153,11 @@ $.each(formValues, function(key, value) {
 });
 
 $button.text(formValues["buttonText"]);
+
+$('#sButton').click(function(e){
+  console.log('yolo');
+  /*e.preventDefault(); 
+  var store=$("#addList").val();
+  console.log(store);
+  $("#inputList").append('<p>'+ store+ '</p>');*/
+  });
