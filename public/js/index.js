@@ -156,8 +156,9 @@ $button.text(formValues["buttonText"]);
 
 $('#sButton').click(function(e){
   console.log('yolo');
-  /*e.preventDefault(); 
-  var store=$("#addList").val();
+  // e.preventDefault();
+  var store=$("#addListInput").val();
   console.log(store);
-  $("#inputList").append('<p>'+ store+ '</p>');*/
+  $("#inputList").prepend('<p>'+ store+ '</p>');
+	$("#addListInput").val("");
   });

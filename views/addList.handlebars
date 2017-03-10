@@ -13,15 +13,14 @@
 
     <div class="top-container">
 			<h3>Create your own idea</h3>
-					<p>In order to help you  have flexibility over your mindfulness, we have allowed a way
-					to add in your own list idea that you would like to answer!
+					<p>
 				    If you have an idea for a list you would like to fill out, type it in the box below and we'll review it and add it to our database</p>
 
 
- 
+
 
      <form id="addList" role="form" method="get" action="/addedList">
-			<textarea id="name" name="name" cols="40" rows="5" placeholder="Example: List 3 things you would like to accomplish today." class="listItem"></textarea>
+			<textarea id="addListInput" name="name" cols="40" rows="5" placeholder="Example: List 3 things you would like to accomplish today." class="listItem"></textarea>
 			<br />
 		</form>
      	<button id="sButton" class="submit">Submit</button>
@@ -33,10 +32,10 @@
 		{{/each}}
 
 
- <p class="todaylist">Lists already in our database:</p>
+ <h3 class="todaylist">Lists already in our database:</h3>
  <div id= "inputList" class= "todaylist">
- {{#each moreData.lists}}
-   <p class="textbox-content">{{title}}</p>
+ {{#each questions}}
+   <p>{{prompt}}</p>
   {{/each}}
  </div>
  <br>
