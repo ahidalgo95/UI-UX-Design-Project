@@ -18,6 +18,7 @@ var help = require('./routes/help');
 var addList = require('./routes/addList');
 var subList = require('./routes/subList');
 var addedList = require('./routes/addedList');
+var front = require('./routes/front');
 // Example route
 // var user = require('./routes/user');
 
@@ -45,7 +46,7 @@ if ('development' == app.get('env')) {
 
 // Add routes here
 app.get('/index', index.view);
-app.get('/', login.view);
+app.get('/login', login.view);
 app.get('/list', list.view);
 app.get('/secondhome', secondhome.view);
 app.get('/more-details', moreDetails.view);
@@ -54,6 +55,7 @@ app.get('/help', help.view);
 app.get('/add-question', addList.view);
 app.get('/subList', subList.addAnswer);
 app.get('/addedList', addedList.addItem);
+app.get('/', front.view);
 // Example route
 // app.get('/users', user.list);
 

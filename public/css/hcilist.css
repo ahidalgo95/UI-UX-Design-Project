@@ -10,10 +10,18 @@ html, body {
   margin-left: 20px;
   margin-right: 20px;
 }
-
-body {background: url("https://s-media-cache-ak0.pinimg.com/564x/8a/c5/f3/8ac5f3ea403e5eaab530a41ab35b832c.jpg") no-repeat center center fixed;
-background-size: cover;
+#bg2{
+ background: url("https://img1.etsystatic.com/072/0/10958922/il_fullxfull.818100791_pcsp.jpg") no-repeat center center fixed;
+ background-size: cover;
 }
+#bg1{
+  background: url("https://s-media-cache-ak0.pinimg.com/564x/8a/c5/f3/8ac5f3ea403e5eaab530a41ab35b832c.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+/*body {background: url("https://s-media-cache-ak0.pinimg.com/564x/8a/c5/f3/8ac5f3ea403e5eaab530a41ab35b832c.jpg") no-repeat center center fixed;
+background-size: cover;
+}*/
 .topmeh{
   text-align: center;
   justify-content: center;
@@ -238,7 +246,20 @@ padding: 10px;
   margin-left: auto;
   margin-right: auto;
   display: block;
-
+}
+.dark{
+  box-shadow: 4px 4px 4px #888888;
+  background: #000000;
+  color: white;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  border: none;
+  height: 50px;
+  width: 200px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 .submit a {
