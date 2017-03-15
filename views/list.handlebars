@@ -13,10 +13,10 @@
 	{{> navbar}}
 
 <div class="top-container">
-	  <h2>Today's Reflection</h2>
+	  <h2 class="list-title">Today's Reflection</h2>
 
 	  <div class = "todaylist">
-		<h4>{{task}}</h4>
+		<h4 style="text-align: center;">{{task}}</h4>
 		<form id="addToday" role = "form" method="get" action="/subList">
 
 	    <div id="list-form">
@@ -25,7 +25,7 @@
 
 				<button id="edit-button">Edit</button>
 				<input type="hidden" name="taskTitle" value="{{task}}" />
-				<p>Mood:</p>
+				<p class="emoji-option-header">Mood</p>
 				<label class="emoji">
 				  <i class="em em-smile"></i>
 					<input type="radio" name="mood" value="smile" />
@@ -78,7 +78,7 @@
 
 
 
-				<p>Weather:</p>
+				<p class="emoji-option-header">Weather</p>
 				<label class="emoji">
 				  <i class="em em-sunny"></i>
 					<input type="radio" name="weather" value="sunny" />

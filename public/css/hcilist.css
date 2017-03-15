@@ -103,7 +103,7 @@ padding: 10px;
   font-size: 16px;
 }
 .panel-group {
-  margin-bottom: 25px;
+  margin-bottom: 60px;
 }
 
 .panel-group .panel {
@@ -221,7 +221,6 @@ padding: 10px;
 .login{
   width: 100%;
   height: 130px;
-  background: #445DDF;
   color: white;
   justify-content: center;
   align-items: center;
@@ -383,4 +382,12 @@ justify-content: center;
 
 .emoji-weather-section .emoji {
   margin: 0 12px
+}
+
+.emoji-option-header {
+  margin: 0;
+}
+
+.list-title {
+  margin: 0;
 }
