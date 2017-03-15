@@ -5,18 +5,29 @@
 	<link href="/css/bootstrap-theme.css" rel="stylesheet">
 	<link href="/css/bootstrap.css" rel="stylesheet">
 	<link href="/css/hcilist.css" rel="stylesheet">
-
 </head>
 <body id = "bg1">
 	{{> navbar}}
+<div class="stats-container">
+  <div>
+  	<h2>Stats</h2>
+  </div>
 
-<div id="settings">
-	<h2>Stats</h2>
+  <div id="load-div" style="display:none"></div>
+  <div class="chart-section mood-chart-section">
+    <h3>Favorite Mood Emojis<h3>
+    <canvas id="emoji-chart" width="350" height="350"></canvas>
+    <div class="emoji-section emoji-mood-section">
+    </div>
+  </div>
+
+  <div class="chart-section">
+    <h3>Favorite Weather Emojis<h3>
+    <canvas id="weather-chart" width="350" height="350"></canvas>
+    <div class="emoji-section emoji-weather-section">
+    </div>
+  </div>
 </div>
-
-<div id="load-div" style="display:none"></div>
-<canvas id="emoji-chart" width="400" height="400"></canvas>
-<canvas id="weather-chart" width="400" height="400"></canvas>
 <!-- Nav bottom -->
 <nav class="navbar navbar-default navbar-fixed-bottom" id="nav-bottom">
   <div class="container-fluid">

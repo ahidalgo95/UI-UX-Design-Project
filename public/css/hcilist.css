@@ -359,3 +359,28 @@ justify-content: center;
 .nav-bottom-item.active .nav-bottom-icon {
   color: #428bca
 }
+
+.stats-container {
+  text-align: center;
+  margin-bottom: 70px;
+
+}
+
+.chart-section {
+  margin-bottom: 30px;
+}
+.emoji-section {
+  padding-left: 17px;
+}
+
+.emoji-section .emoji {
+  margin: 0 11px
+}
+
+.emoji-weather-section {
+    padding-left: 0px;
+}
+
+.emoji-weather-section .emoji {
+  margin: 0 12px
+}

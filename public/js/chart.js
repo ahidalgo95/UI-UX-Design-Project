@@ -3,66 +3,81 @@
 var emojis = {
   smile: {
     name: "smile",
-    num: 0
+    num: 0,
+    label: "Smile"
   },
   grimacing: {
     name: "grimacing",
-    num: 0
+    num: 0,
+    label: "Grimace"
   },
   smirk: {
     name: "smirk",
-    num: 0
+    num: 0,
+    label: "Grin"
   },
   stuck_out_tongue: {
     name: "stuck_out_tongue",
-    num: 0
+    num: 0,
+    label: "Pull Toungue"
   },
   flushed: {
     name: "flushed",
-    num: 0
+    num: 0,
+    label: "embarrassed"
   },
   cold_sweat: {
     name: "cold_sweat",
-    num: 0
+    num: 0,
+    label: "scared"
   },
   pensive: {
     name: "pensive",
-    num: 0
+    num: 0,
+    label: "Pensive"
   },
   sob: {
     name: "sob",
-    num: 0
+    num: 0,
+    label: "Sob"
   },
   angry: {
     name: "angry",
-    num: 0
+    num: 0,
+    label: "Angry"
   },
   rage: {
     name: "rage",
-    num: 0
+    num: 0,
+    label: "Rage"
   }
 }
 
 var weather = {
   sunny: {
     name: "sunny",
-    num: 0
+    num: 0,
+    label: "Sunny"
   },
   partly_sunny: {
     name: "partly_sunny",
-    num: 0
+    num: 0,
+    label: "Mixed"
   },
   cloud: {
     name: "cloud",
-    num: 0
+    num: 0,
+    label: "Cloudy"
   },
   umbrella: {
     name: "umbrella",
-    num: 0
+    num: 0,
+    label: "Rain"
   },
   snowflake: {
     name: "snowflake",
-    num: 0
+    num: 0,
+    label: "Snow"
   }
 }
 
@@ -71,8 +86,11 @@ $("#load-div").load("index",function(data){
   emojis = countOccurences(data, emojis);
   weather = countOccurences(data, weather);
   // select top emojis
-    create($("#emoji-chart"), 5, emojis);
-    create($("#weather-chart"), 5, weather);
+    var topMoodEmoji = create($("#emoji-chart"), 5, emojis);
+    var topWeatherEmoji = create($("#weather-chart"), 5, weather);
+
+    addEmoji($(".emoji-mood-section"), topMoodEmoji)
+    addEmoji($(".emoji-weather-section"), topWeatherEmoji)
   });
 
   function create(ctx, numDisplay, emojiList) {
@@ -82,6 +100,16 @@ $("#load-div").load("index",function(data){
     topEmoji = res[0];
     usedEmojis = res[1]
     generateChart(ctx, topEmoji);
+    return topEmoji;
+  }
+
+  function addEmoji(node, list) {
+    for(key in list) {
+      
+      node.append('<label class="emoji">'+
+          '<i class="em em-'+ list[key].name+'"></i>' +
+        '</label class="emoji">')
+    }
   }
 
 // count how many times emoji occuers
@@ -106,9 +134,11 @@ function generateTopEmojis(topArr, numDisplay, emojiList, usedArr) {
 
     var ind = 0;
     var maxEmoji="smile";
-    for(key in emojiList) {
-      if(!usedArr.includes(key)) {
-        maxEmoji=key;
+    var maxLabel = "smile";
+    for(emName in emojiList) {
+      if(!usedArr.includes(emName)) {
+        maxEmoji=emName;
+        maxLabel=emojiList[emName].label;
       }
     }
 
@@ -118,12 +148,16 @@ function generateTopEmojis(topArr, numDisplay, emojiList, usedArr) {
       if(emoji.num > max){
         max = emoji.num;
         maxEmoji=emoji.name;
+        maxLabel = emoji.label;
+
       }
 
     }
+
     topArr.push({
       name: maxEmoji,
-      num: max
+      num: max,
+      label: maxLabel
     });
     usedArr.push(maxEmoji);
     emojiList[maxEmoji].num=-1;
@@ -132,11 +166,10 @@ function generateTopEmojis(topArr, numDisplay, emojiList, usedArr) {
 }
 
 function generateChart(ctx, topArr) {
-  console.log(topArr);
   return new Chart(ctx, {
       type: 'bar',
       data: {
-          labels: [topArr[0].name, topArr[1].name, topArr[2].name, topArr[3].name, topArr[4].name],
+          labels: [topArr[0].label, topArr[1].label, topArr[2].label, topArr[3].label, topArr[4].label],
           datasets: [{
               label: '# of timesChosen',
               data: [topArr[0].num, topArr[1].num, topArr[2].num, topArr[3].num, topArr[4].num],
@@ -170,5 +203,3 @@ function generateChart(ctx, topArr) {
       }
   });
 }
-
-console.log('myChart');
