@@ -352,10 +352,10 @@ justify-content: center;
 
 }
 
-.nav-bottom-text.active {
+.nav-bottom-item.active .nav-bottom-text{
   color: #428bca;
 }
 
-.nav-bottom-icon.active {
+.nav-bottom-item.active .nav-bottom-icon {
   color: #428bca
 }

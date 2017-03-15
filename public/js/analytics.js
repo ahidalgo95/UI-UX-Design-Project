@@ -106,6 +106,7 @@ $("#accordion").children().eq(4).click(function() {
 
       }
     }
+    console.log("sevet")
   }
 
 });

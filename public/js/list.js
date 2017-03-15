@@ -18,3 +18,5 @@ $('#edit-button').click(function() {
   $(this).css("display", "none");
   $('#submit-button').css("display", "block");
 });
+
+console.log("run");

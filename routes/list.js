@@ -1,11 +1,12 @@
 var data= require('../data.json');
 var taskData = require('../task.json');
 var helper = require('../public/js/helper.js');
-var index = Math.floor(Math.random()*taskData.tasks.length);
-var task = taskData.tasks[index];
+
 
 
 exports.view = function(req, res){
+    var index = Math.floor(Math.random()*taskData.tasks.length);
+    var task = taskData.tasks[index];
     res.render('list', task);
 };
 
