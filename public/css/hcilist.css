@@ -11,6 +11,8 @@ html, body {
   font-size: 30px;
   margin-left: 20px;
   margin-right: 20px;
+  text-align: center;
+  color: rgb(93, 64, 86);
 }
 
 .todayL{
@@ -26,8 +28,10 @@ html, body {
 
 }
 #bg1 {background: url("https://s-media-cache-ak0.pinimg.com/564x/8a/c5/f3/8ac5f3ea403e5eaab530a41ab35b832c.jpg") no-repeat center center fixed;
+opacity: 0.9;
 background-size: cover;
 }
+
 
 .topmeh{
   text-align: center;
@@ -97,8 +101,8 @@ padding: 10px;
 }
 .textbox-title {
   font-family: 'Raleway', sans-serif;
-  font-size: 20px;
- color: lightskyblue;
+  font-size: 17px;
+ color: rgb(113, 84, 106);
  margin-top: 0;
 }
 
@@ -117,11 +121,11 @@ padding: 10px;
 }
 
 .accordion-title {
-  font-family: 'Roboto', sans-serif;
-  font-size: 14px;
-  color: cornflowerblue;
+  font-family: 'Raleway', sans-serif;
+  font-size: 17px;
+  color: rgb(113, 84, 106);
   margin:0;
-  font-size: 16px;
+
 }
 .panel-group {
   margin-bottom: 60px;
@@ -151,7 +155,7 @@ padding: 10px;
 .heading {
   font-family: 'Raleway', sans-serif;
   font-size: 30px;
-  color: #445DDF;
+  color: rgb(93, 64, 86);
   text-align: center;
   font-size: 30px;
 }
@@ -263,7 +267,6 @@ padding: 10px;
 
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
-  box-shadow: 4px 4px 4px #888888;
   background: #7a5471;
   color: white;
   border-radius: 30px;
@@ -296,8 +299,11 @@ padding: 10px;
 
 #name{
   margin-bottom: 15px;
-  width: 300px;
+  width: 350px;
   height: 90px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1;
   /*
   margin-left: 10px;
   margin-right: 10px;width: 100%;*/
@@ -461,25 +467,25 @@ justify-content: center;
 .evokes{
   font-family: 'Poiret One', sans-serif;
   font-size: 20px;
-  color: rgb(93, 64, 86);;
+  color: rgb(93, 64, 86);
 }
 
 .evoke{
   font-family: 'Poiret One', sans-serif;
   font-size: 55px;
-  color: rgb(93, 64, 86);;
+  color: rgb(93, 64, 86);
 }
 
 .mehtext{
   font-family: 'Raleway', sans-serif;
   font-size: 30px;
-  color: rgb(93, 64, 86);;
+  color: rgb(93, 64, 86);
 }
 
 .mediumtext{
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
-  color: rgb(93, 64, 86);;
+  color: rgb(93, 64, 86);
 }
 
 
@@ -513,6 +519,9 @@ justify-content: center;
 #user{
   opacity: 0.5;
   height: 40px;
+}
+#whitepic{
+  opacity: 0.5;
 }
 #demo{
   font-family: 'Raleway', sans-serif;

@@ -31,16 +31,14 @@
 </script>
 
 <p class="facebookLogin">
-		<!--Please login through Facebook
-		<fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
-	</fb:login-button> -->
+
 	</p>
 		<div class="top-container">
 		<h2 class="mehtext">Welcome to</h2>
 		<h2 class="evoke"><b>evoke</b></h2>
+		<p class="mehtext"id="kname"></p>
 		<h3 class="mediumtext">Login</h3>
 	  <div id="userName" class="login">
-			<!--<h1 id="kname">Michael Bernstein</h1> -->
 			<form id="addUser" method= "get" action="/login">
 
 	    <h6 class="smallertext">Username: <input type="text" id="user" placeholder="type" name="person" required/></h6>
@@ -50,9 +48,12 @@
 	    <a href="/list"> <button class="submit">Submit</button></a>
 			<!-- <fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
 			-->
+			<fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+		</fb:login-button>
 
 	</div>
 	{{> facebook}}
+	<script src="https://code.jquery.com/jquery.js"></script>
 	<script src="/js/facebook.js"></script>
 	{{> ga}}
 </body>
