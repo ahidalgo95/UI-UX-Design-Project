@@ -10,7 +10,7 @@
 <body id = "bg2">
 	<!-- background="https://s-media-cache-ak0.pinimg.com/564x/8a/c5/f3/8ac5f3ea403e5eaab530a41ab35b832c.jpg" -->
 
-<!--<script>
+<script>
   window.fbAsyncInit = function() {
     FB.init({
       appId      : '1266173776791798',
@@ -30,27 +30,25 @@
 </script>
 
 <p class="facebookLogin">
-		Please login through Facebook
+		<!--Please login through Facebook
 		<fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
-		</fb:login-button>
-	</p> -->
+	</fb:login-button> -->
+	</p>
 		<div class="top-container">
 		<h2>Welcome to</h2>
 		<h2>EVOKE!</h2>
 		<h3>Login</h3>
 	  <div id="userName" class="login">
+			<!--<h1 id="kname">Michael Bernstein</h1> -->
 			<form id="addUser" method= "get" action="/login">
-	    <p>Username: <input type="text" id="user" placeholder="type" name="person" required/></p>
+	    <h4 id="purp">Username: <input type="text" id="user" placeholder="type" name="person" required/></h4>
 	    <br />
-	    <p>Password: <input type="text" class="login-info" id="password" placeholder="type" name"type"/><p/>
+	    <h4 id="purp">Password: <input type="text" class="login-info" id="password" placeholder="type" name"type"/><h4/>
 			</form>
 		</div>
 	    <a href="/list"> <button class="submit">Submit</button></a>
-			<!-- <fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
-			-->
-		<p>Want to practice being mindful, but unsure of where to start? With its daily guided microjournaling, Evoke will help you achieve mindfulness!</p>
-
-		<p>Happy reflecting! </p>
+			<!--<fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+		-->
 	</div>
 	{{> facebook}}
 	<script src="/js/facebook.js"></script>
