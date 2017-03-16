@@ -86,6 +86,15 @@ padding: 10px;
   padding: 10px;
 }
 
+#cover-photo {
+  background: url("https://img1.etsystatic.com/072/0/10958922/il_fullxfull.818100791_pcsp.jpg") no-repeat center center fixed;
+  background-size: cover;
+  opacity: 0.3;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+}
+
 .flex-spread {
   display: flex;
   align-items: center;
@@ -224,7 +233,7 @@ padding: 10px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 150px;
+  margin-bottom: 65px;
 }
 
 .title {
@@ -357,7 +366,11 @@ list-style: none;
 justify-content: center;
 }
 
-
+.navbar-default {
+    background-color: #f8f8f8;
+    border-color: #e7e7e7;
+    margin-bottom: 0;
+}
 .glyphicon.center:before {
     vertical-align: middle;
     display: inline-block;
@@ -449,6 +462,7 @@ justify-content: center;
 
 .list-title {
   margin: 0;
+  margin-top: 15px;
   font-family: 'Raleway', sans-serif;
   font-size: 30px;
 }
@@ -482,6 +496,7 @@ justify-content: center;
 .mehtext{
   font-family: 'Raleway', sans-serif;
   font-size: 30px;
+  /*margin-top: 0;*/
   color: rgb(93, 64, 86);
 }
 
