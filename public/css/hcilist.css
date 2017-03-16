@@ -95,7 +95,7 @@ padding: 10px;
 
 .textbox-date {
 }
-.textbox-title { 
+.textbox-title {
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
  color: lightskyblue;
@@ -256,11 +256,11 @@ padding: 10px;
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
   display: flex;
 }
 .submit{
-  
+
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   box-shadow: 4px 4px 4px #888888;
@@ -296,9 +296,11 @@ padding: 10px;
 
 #name{
   margin-bottom: 15px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
+  width: 300px;
+  height: 90px;
+  /*
+  margin-left: 10px;
+  margin-right: 10px;width: 100%;*/
 }
 
 #edit-button {
@@ -443,7 +445,7 @@ justify-content: center;
 }
 
 .addmargin{
-  padding-top: 70px;
+  padding-top: 50px;
   text-align: center;
 }
 
@@ -459,23 +461,25 @@ justify-content: center;
 .evokes{
   font-family: 'Poiret One', sans-serif;
   font-size: 20px;
+  color: rgb(93, 64, 86);;
 }
 
 .evoke{
   font-family: 'Poiret One', sans-serif;
   font-size: 55px;
+  color: rgb(93, 64, 86);;
 }
-
 
 .mehtext{
   font-family: 'Raleway', sans-serif;
   font-size: 30px;
+  color: rgb(93, 64, 86);;
 }
-
 
 .mediumtext{
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
+  color: rgb(93, 64, 86);;
 }
 
 
@@ -503,9 +507,13 @@ justify-content: center;
 
 .smallertext{
   font-family: 'Roboto', sans-serif;
-  font-size: 16px;
+  font-size: 18px;
+  color: rgb(73, 44, 66);;
 }
-
+#user{
+  opacity: 0.5;
+  height: 40px;
+}
 #demo{
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
