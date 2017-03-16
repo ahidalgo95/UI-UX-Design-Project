@@ -11,8 +11,8 @@
 	{{> navbar}}
 
     <div class="top-container">
-			<h3>Create your own idea</h3>
-					<p>
+			<h3 class="mehtext">Create your own idea</h3>
+					<p class="smallertext">
 				    If you have an idea for a question you would like to reflect on, type it in the box below and we'll review it and add it to our database</p>
 
      <form id="addList" role="form" method="get" action="/addedList">
@@ -29,7 +29,7 @@
 
 
  <h3 class="todaylist">Questions already in our database:</h3>
- <div id= "inputList" class= "todaylist">
+ <div id= "inputList" class= "todayL">
  {{#each questions}}
    <p>{{prompt}}</p>
   {{/each}}

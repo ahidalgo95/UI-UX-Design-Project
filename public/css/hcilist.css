@@ -7,17 +7,31 @@ html, body {
 }
 
 .todaylist {
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
   margin-left: 20px;
   margin-right: 20px;
+  text-align: center;
+  color: rgb(93, 64, 86);
 }
+
+.todayL{
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
 #bg2{
   background: url("https://img1.etsystatic.com/072/0/10958922/il_fullxfull.818100791_pcsp.jpg") no-repeat center center fixed;
   background-size: cover;
 
 }
 #bg1 {background: url("https://s-media-cache-ak0.pinimg.com/564x/8a/c5/f3/8ac5f3ea403e5eaab530a41ab35b832c.jpg") no-repeat center center fixed;
+opacity: 0.9;
 background-size: cover;
 }
+
 
 .topmeh{
   text-align: center;
@@ -86,11 +100,15 @@ padding: 10px;
 .textbox-date {
 }
 .textbox-title {
- color: lightskyblue;
+  font-family: 'Raleway', sans-serif;
+  font-size: 17px;
+ color: rgb(113, 84, 106);
  margin-top: 0;
 }
 
 .textbox-content {
+ font-family: 'Roboto', sans-serif;
+ font-size: 14px;
  margin-bottom: 0;
 }
 
@@ -103,9 +121,11 @@ padding: 10px;
 }
 
 .accordion-title {
-  color: cornflowerblue;
+  font-family: 'Raleway', sans-serif;
+  font-size: 17px;
+  color: rgb(113, 84, 106);
   margin:0;
-  font-size: 16px;
+
 }
 .panel-group {
   margin-bottom: 60px;
@@ -124,6 +144,8 @@ padding: 10px;
 }
 
 .panel-title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
   display: inline-block;
 }
 .hidden {
@@ -131,7 +153,9 @@ padding: 10px;
 }
 
 .heading {
-  color: #445DDF;
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  color: rgb(93, 64, 86);
   text-align: center;
   font-size: 30px;
 }
@@ -236,11 +260,13 @@ padding: 10px;
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
   display: flex;
 }
 .submit{
-  box-shadow: 4px 4px 4px #888888;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
   background: #7a5471;
   color: white;
   border-radius: 30px;
@@ -273,9 +299,14 @@ padding: 10px;
 
 #name{
   margin-bottom: 10px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
+  width: 350px;
+  height: 90px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1;
+  /*
+  margin-left: 10px;
+  margin-right: 10px;width: 100%;*/
 }
 
 #edit-button {
@@ -313,7 +344,7 @@ input[type="radio"]{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 5px;
+  margin-top: 1px;
 }
 
 /*Navbar bottom */
@@ -359,6 +390,8 @@ justify-content: center;
   color: #777777;
 }
 .nav-bottom-text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
   margin: 0;
   line-height: 1;
   font-size: 11px;
@@ -407,11 +440,93 @@ justify-content: center;
 }
 
 .emoji-option-header {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
   margin: 0;
 }
 
 .list-title {
   margin: 0;
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+}
+
+.addmargin{
+  padding-top: 50px;
+  text-align: center;
+}
+
+
+
+
+#nav{
+  font-family: 'Poiret One', sans-serif;
+  font-size: 35px;
+}
+
+
+.evokes{
+  font-family: 'Poiret One', sans-serif;
+  font-size: 20px;
+  color: rgb(93, 64, 86);
+}
+
+.evoke{
+  font-family: 'Poiret One', sans-serif;
+  font-size: 55px;
+  color: rgb(93, 64, 86);
+}
+
+.mehtext{
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  color: rgb(93, 64, 86);
+}
+
+.mediumtext{
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  color: rgb(93, 64, 86);
+}
+
+
+#helpmebuttons{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+
+#bs-example-navbar-collapse-1{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+#b2{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+
+#addListInput{
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+}
+
+.smallertext{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: rgb(73, 44, 66);;
+}
+#user{
+  opacity: 0.5;
+  height: 40px;
+}
+#whitepic{
+  opacity: 0.5;
+}
+#demo{
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
 }
 
 
@@ -426,4 +541,5 @@ a#refresh-button {
     background: #7a5471;
     border-radius: 10px;
     color: white;
+    font-size: 14px;
 }
