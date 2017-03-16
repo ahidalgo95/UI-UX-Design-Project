@@ -30,26 +30,26 @@
    }(document, 'script', 'facebook-jssdk'));
 </script>
 
-<p class="facebookLogin">
 
-	</p>
 		<div class="top-container">
 		<h2 class="mehtext">Welcome to</h2>
 		<h2 class="evoke"><b>evoke</b></h2>
 		<p class="mehtext"id="kname"></p>
-		<h3 class="mediumtext">Login</h3>
+		<h3 id="logs3" class="mediumtext">Login</h3>
 	  <div id="userName" class="login">
 			<form id="addUser" method= "get" action="/login">
 
-	    <h6 class="smallertext">Username: <input type="text" id="user" placeholder="type" name="person" required/></h6>
-	    <h6 class="smallertext">Password: <input type="text" class="login-info" id="user" placeholder="type" name="type"/></h6>
+	    <h6 id = "logs" class="smallertext">Username: <input type="text" id="user" placeholder="type" name="person" required/></h6>
+	    <h6 id = "logs2" class="smallertext">Password: <input type="text" class="login-info" id="user" placeholder="type" name="type"/></h6>
 			</form>
 		</div>
 	    <a href="/list"> <button class="submit">Submit</button></a>
 			<!-- <fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
 			-->
-			<fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
-		</fb:login-button>
+			<p class="facebookLogin">
+				<fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+				</fb:login-button>
+		</p>
 
 	</div>
 	{{> facebook}}
