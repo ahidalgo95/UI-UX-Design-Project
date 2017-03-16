@@ -7,9 +7,19 @@ html, body {
 }
 
 .todaylist {
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
   margin-left: 20px;
   margin-right: 20px;
 }
+
+.todayL{
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
 #bg2{
   background: url("https://img1.etsystatic.com/072/0/10958922/il_fullxfull.818100791_pcsp.jpg") no-repeat center center fixed;
   background-size: cover;
@@ -85,12 +95,16 @@ padding: 10px;
 
 .textbox-date {
 }
-.textbox-title {
+.textbox-title { 
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
  color: lightskyblue;
  margin-top: 0;
 }
 
 .textbox-content {
+ font-family: 'Roboto', sans-serif;
+ font-size: 14px;
  margin-bottom: 0;
 }
 
@@ -103,6 +117,8 @@ padding: 10px;
 }
 
 .accordion-title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
   color: cornflowerblue;
   margin:0;
   font-size: 16px;
@@ -124,6 +140,8 @@ padding: 10px;
 }
 
 .panel-title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
   display: inline-block;
 }
 .hidden {
@@ -131,6 +149,8 @@ padding: 10px;
 }
 
 .heading {
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
   color: #445DDF;
   text-align: center;
   font-size: 30px;
@@ -240,6 +260,9 @@ padding: 10px;
   display: flex;
 }
 .submit{
+  
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
   box-shadow: 4px 4px 4px #888888;
   background: #7a5471;
   color: white;
@@ -358,6 +381,8 @@ justify-content: center;
   color: #777777;
 }
 .nav-bottom-text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
   margin: 0;
   line-height: 1;
   font-size: 11px;
@@ -406,9 +431,82 @@ justify-content: center;
 }
 
 .emoji-option-header {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
   margin: 0;
 }
 
 .list-title {
   margin: 0;
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+}
+
+.addmargin{
+  padding-top: 70px;
+  text-align: center;
+}
+
+
+
+
+#nav{
+  font-family: 'Poiret One', sans-serif;
+  font-size: 35px;
+}
+
+
+.evokes{
+  font-family: 'Poiret One', sans-serif;
+  font-size: 20px;
+}
+
+.evoke{
+  font-family: 'Poiret One', sans-serif;
+  font-size: 55px;
+}
+
+
+.mehtext{
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+}
+
+
+.mediumtext{
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+}
+
+
+#helpmebuttons{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+
+#bs-example-navbar-collapse-1{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+#b2{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+
+#addListInput{
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+}
+
+.smallertext{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+#demo{
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
 }

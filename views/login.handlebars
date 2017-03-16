@@ -1,3 +1,4 @@
+<link href="https://fonts.googleapis.com/css?family=Lato|Poiret+One|Raleway|Roboto" rel="stylesheet">
 <html>
 <head>
 	<title>Login</title>
@@ -35,20 +36,22 @@
 	</fb:login-button> -->
 	</p>
 		<div class="top-container">
-		<h2>Welcome to</h2>
-		<h2>EVOKE!</h2>
-		<h3>Login</h3>
+		<h2 class="mehtext">Welcome to</h2>
+		<h2 class="evoke">evoke</h2>
+		<h3 class="mediumtext">Login</h3>
 	  <div id="userName" class="login">
 			<!--<h1 id="kname">Michael Bernstein</h1> -->
 			<form id="addUser" method= "get" action="/login">
-	    <h4 id="purp">Username: <input type="text" id="user" placeholder="type" name="person" required/></h4>
+
+	    <p class="smallertext">Username: <input type="text" id="user" placeholder="type" name="person" required/></p>
 	    <br />
-	    <h4 id="purp">Password: <input type="text" class="login-info" id="password" placeholder="type" name"type"/><h4/>
+	    <p class="smallertext">Password: <input type="text" class="login-info" id="password" placeholder="type" name"type"/><p/>
 			</form>
 		</div>
 	    <a href="/list"> <button class="submit">Submit</button></a>
-			<!--<fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
-		-->
+			<!-- <fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+			-->
+
 	</div>
 	{{> facebook}}
 	<script src="/js/facebook.js"></script>
