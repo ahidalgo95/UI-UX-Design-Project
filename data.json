@@ -1,18 +1,18 @@
 {
   "lists": [
     {
-      "title": "What are you aware of right now?",
-      "date": "Thu Mar 16 2017",
-      "items": "My life, school work, and what foods I put in my body",
-      "emoji": "em em-grimacing",
-      "weather": "em em-partly_sunny"
-    },
-    {
-      "title": "What are you happy about?",
-      "date": "Wed Mar 15 2017",
-      "items": "Cheese, Grilled cheese, and Coffee",
+      "title": "What are some small moments you may have forgotten about?",
+      "date": "Thur Mar 16 2017",
+      "items": "The great cup of coffee I had today and the amazign way it smelled, Buying Fraser a beer, and Saying hi to Rob",
       "emoji": "em em-smile textbox-content",
       "weather": "em em-cloud"
+    },
+    {
+      "title": "Bring a new awareness to your body, what are somethings you notice?",
+      "date": "Wed Mar 15 2017",
+      "items": "My breathing, the way I am carrying my stress, and the way foods I put in my body affect me",
+      "emoji": "em em-grimacing",
+      "weather": "em em-partly_sunny"
     },
     {
       "title": " Are you feeling good at things lately?",
@@ -22,9 +22,9 @@
       "weather": "em em-cloud"
     },
     {
-      "title": "What are some small moments you may have forgotten about?",
+      "title": "What are you happy about?",
       "date": "Mon Mar 13 2017",
-      "items": "The great cup of coffee I had today and the amazign way it smelled, Buying Fraser a beer, and Saying hi to Rob",
+      "items": "Cheese, Grilled cheese, and Coffee",
       "emoji": "em em-smile textbox-content",
       "weather": "em em-cloud"
     },
