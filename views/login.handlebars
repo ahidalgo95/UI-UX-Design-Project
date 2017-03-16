@@ -1,3 +1,4 @@
+<link href="https://fonts.googleapis.com/css?family=Lato|Poiret+One|Raleway|Roboto" rel="stylesheet">
 <html>
 <head>
 	<title>Login</title>
@@ -35,22 +36,20 @@
 		</fb:login-button>
 	</p> -->
 		<div class="top-container">
-		<h2>Welcome to</h2>
-		<h2>EVOKE!</h2>
-		<h3>Login</h3>
+		<h2 class="mehtext">Welcome to</h2>
+		<h2 class="evoke">evoke</h2>
+		<h3 class="mediumtext">Login</h3>
 	  <div id="userName" class="login">
 			<form id="addUser" method= "get" action="/login">
-	    <p>Username: <input type="text" id="user" placeholder="type" name="person" required/></p>
+	    <p class="smallertext">Username: <input type="text" id="user" placeholder="type" name="person" required/></p>
 	    <br />
-	    <p>Password: <input type="text" class="login-info" id="password" placeholder="type" name"type"/><p/>
+	    <p class="smallertext">Password: <input type="text" class="login-info" id="password" placeholder="type" name"type"/><p/>
 			</form>
 		</div>
 	    <a href="/list"> <button class="submit">Submit</button></a>
 			<!-- <fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
 			-->
-		<p>Want to practice being mindful, but unsure of where to start? With its daily guided microjournaling, Evoke will help you achieve mindfulness!</p>
 
-		<p>Happy reflecting! </p>
 	</div>
 	{{> facebook}}
 	<script src="/js/facebook.js"></script>
