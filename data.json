@@ -1,30 +1,30 @@
 {
   "lists": [
     {
-      "title": "What are you aware of right now?",
-      "date": "Thu Mar 16 2017",
-      "items": "My life, school work, and what foods I put in my body",
+      "title": "What are some small moments you may have forgotten about?",
+      "date": "Thur Mar 16 2017",
+      "items": "The great cup of coffee I had today and the amazign way it smelled, Buying Fraser a beer, and Saying hi to Rob",
+      "emoji": "em em-smile textbox-content",
+      "weather": "em em-cloud"
+    },
+    {
+      "title": "Bring a new awareness to your body. What are some things you notice?",
+      "date": "Wed Mar 15 2017",
+      "items": "My breathing, the way I am carrying my stress, and how much better I feel when I eat healthy.",
       "emoji": "em em-grimacing",
       "weather": "em em-partly_sunny"
     },
     {
-      "title": "What are you happy about?",
-      "date": "Wed Mar 15 2017",
-      "items": "Cheese, Grilled cheese, and Coffee",
-      "emoji": "em em-smile textbox-content",
-      "weather": "em em-cloud"
-    },
-    {
-      "title": " Are you feeling good at things lately?",
+      "title": "Is there anything you are feeling encouraged by?",
       "date": "Tue Mar 14 2017",
-      "items": "1. Coding! 2. Drinking beer! 3. Finding great music online!",
-      "emoji": "em em-smile textbox-content",
-      "weather": "em em-cloud"
+      "items": "My smart friends, my loving parents, my inspirational professors",
+      "emoji": "em em-grimacing",
+      "weather":"em em-cloud"
     },
     {
-      "title": "What are some small moments you may have forgotten about?",
+      "title": "What are you happy about?",
       "date": "Mon Mar 13 2017",
-      "items": "The great cup of coffee I had today and the amazign way it smelled, Buying Fraser a beer, and Saying hi to Rob",
+      "items": "Cheese, Grilled cheese, and Coffee",
       "emoji": "em em-smile textbox-content",
       "weather": "em em-cloud"
     },
@@ -43,11 +43,11 @@
       "weather":"em em-sunny textbox-content"
     },
     {
-      "title": "Is there anything you are feeling encouraged by",
+      "title": " Are you feeling good at things lately?",
       "date": "Fri Mar 10 2017",
-      "items": "My smart friends, my loving parents, my inspirational professors",
-      "emoji": "em em-grimacing",
-      "weather":"em em-cloud"
+      "items": "1. Coding! 2. Drinking beer! 3. Finding great music online!",
+      "emoji": "em em-smile textbox-content",
+      "weather": "em em-cloud"
     },
     {
       "title": "List three things you are interested in",

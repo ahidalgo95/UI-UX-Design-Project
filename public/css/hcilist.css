@@ -32,6 +32,14 @@ opacity: 0.9;
 background-size: cover;
 }
 
+#cover-photo {
+  background: url("https://img1.etsystatic.com/072/0/10958922/il_fullxfull.818100791_pcsp.jpg") no-repeat center center fixed;
+  size:500%;
+  opacity: 0.3;
+  width: 100vw;
+  height: 100vh;
+  position: absolute ;
+}
 
 .topmeh{
   text-align: center;
@@ -80,19 +88,9 @@ padding: 10px;
   padding-right: 10px;
   padding-left: 10px;
   border-radius: 15px;
-
   border-right: 2px
-
   padding: 10px;
-}
-
-#cover-photo {
-  background: url("https://img1.etsystatic.com/072/0/10958922/il_fullxfull.818100791_pcsp.jpg") no-repeat center center fixed;
-  background-size: cover;
-  opacity: 0.3;
-  width: 100vw;
-  height: 100vh;
-  position: absolute;
+  position: relative;
 }
 
 .flex-spread {
@@ -270,11 +268,10 @@ padding: 10px;
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-  margin-bottom: 5px;
+  margin-bottom: 0px;
   display: flex;
 }
 .submit{
-
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   background: #7a5471;
@@ -506,6 +503,10 @@ justify-content: center;
   color: rgb(93, 64, 86);
 }
 
+#bold{
+  font-family: 'Raleway', Semi-Bold 600;
+  font-size: 20px;
+}
 
 #helpmebuttons{
   font-family: 'Roboto', sans-serif;
@@ -531,7 +532,7 @@ justify-content: center;
 
 .smallertext{
   font-family: 'Roboto', sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   color: rgb(73, 44, 66);;
 }
 #user{

@@ -19,6 +19,15 @@ function statusChangeCallback(response) {
 }
 function changeUser(response){
   console.log(response.name);
-  $("#kname").show(); 
-  $("#kname").text(response.name);
+  var string = "Welcome " + response.first_name;
+  var words = "Continue as " + response.name;
+  $(".facebookLogin").hide();
+  $("#kname").show();
+  $("#kname").text(string);
+  $("#yo").text(response.name);
+  $(".submit").text(words);
+  $("#logs").hide();
+  $("#logs2").hide();
+  $("#logs3").hide();
+
 }
