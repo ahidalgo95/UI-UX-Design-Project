@@ -8,18 +8,18 @@
       "weather": "em em-cloud"
     },
     {
-      "title": "Bring a new awareness to your body, what are somethings you notice?",
+      "title": "Bring a new awareness to your body. What are some things you notice?",
       "date": "Wed Mar 15 2017",
-      "items": "My breathing, the way I am carrying my stress, and the way foods I put in my body affect me",
+      "items": "My breathing, the way I am carrying my stress, and how much better I feel when I eat healthy.",
       "emoji": "em em-grimacing",
       "weather": "em em-partly_sunny"
     },
     {
-      "title": " Are you feeling good at things lately?",
+      "title": "Is there anything you are feeling encouraged by?",
       "date": "Tue Mar 14 2017",
-      "items": "1. Coding! 2. Drinking beer! 3. Finding great music online!",
-      "emoji": "em em-smile textbox-content",
-      "weather": "em em-cloud"
+      "items": "My smart friends, my loving parents, my inspirational professors",
+      "emoji": "em em-grimacing",
+      "weather":"em em-cloud"
     },
     {
       "title": "What are you happy about?",
@@ -43,11 +43,11 @@
       "weather":"em em-sunny textbox-content"
     },
     {
-      "title": "Is there anything you are feeling encouraged by",
+      "title": " Are you feeling good at things lately?",
       "date": "Fri Mar 10 2017",
-      "items": "My smart friends, my loving parents, my inspirational professors",
-      "emoji": "em em-grimacing",
-      "weather":"em em-cloud"
+      "items": "1. Coding! 2. Drinking beer! 3. Finding great music online!",
+      "emoji": "em em-smile textbox-content",
+      "weather": "em em-cloud"
     },
     {
       "title": "List three things you are interested in",
